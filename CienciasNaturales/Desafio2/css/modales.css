@@ -4,12 +4,11 @@
     border-style: none;
     background-color: transparent;
     border-radius: 50%;
-    width: 50px;
     aspect-ratio: 1;
     padding: 0.25rem;
 }
 
-.infoBotonImg:hover, .zoomBotonImg:hover {
+.infoBotonImg:hover {
     background-color: var(--color3);
 }
 
@@ -70,5 +69,27 @@ div.cerrarModal > button:hover {
 @media only screen and (max-width: 600px) {
     dialog > img {
         width: 90%;
+    }
+
+    p.word {
+        font-size: medium;
+    }
+
+    dialog:open {
+        top: 35%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    dialog:open {
+        top: 40%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    dialog:open {
+        top: 45%;
     }
 }

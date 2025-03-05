@@ -50,7 +50,6 @@ function dragndrop(dropArea){
             dropArea.appendChild(draggedElement);
             draggedElement.style.opacity = '1';
             dropArea.classList.remove('drop-highlight');
-            console.log(draggedElement.textContent.replace(" ", ""));
             document.querySelector(`.cont${draggedElement.textContent.replace(" ", "")}`)
                     .remove();
 

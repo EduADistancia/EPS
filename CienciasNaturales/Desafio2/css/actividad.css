@@ -5,19 +5,20 @@
     height: 10rem;
 }
 
-.word {
+/* .word { */
+#fragmentos div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-radius: 10px;
     padding: 0.5rem 1rem;
     margin: 1rem 2rem;
     background-color: var(--color2);
     color: var(--color5);
     cursor: pointer;
-    overflow-x: auto;
 }
 
-.word > p {
+.word {
     text-align: left;
 }
 
@@ -36,6 +37,9 @@
 }
 
 .dropped {
+    color: var(--color5);
+    background-color: var(--color2);
+    border-radius: 5px;
     padding: 0.5rem;
     margin: 0.5rem 0;
     font-size: smaller;

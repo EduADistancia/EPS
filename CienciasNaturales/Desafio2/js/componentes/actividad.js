@@ -34,13 +34,23 @@ async function crearActividad(datos) {
     for (let dato of datos) {
 
         let tarjeta = document.createElement('div');
-        tarjeta.classList.add('word');
-        tarjeta.draggable = true;
-        tarjeta.setAttribute('name', dato.teoria);
+        tarjeta.classList.add(`Info${contadorAux}`);
+
         
         let frase = document.createElement('p');
+        frase.classList.add('word');
         frase.textContent = dato.fragmento;
+        frase.draggable = true;
+        frase.setAttribute('name', dato.teoria);
+        frase.setAttribute('value', `Info${contadorAux}`);
 
+        
+        tarjeta.append(
+            frase,
+            crearBotoneraModal(`Info${contadorAux}`)
+        );
+        tarjetas.append(tarjeta);
+        
         let infoElemento = document.createElement('dialog');
         infoElemento.id = `Info${contadorAux}`;
         let info = document.createElement('p');
@@ -51,13 +61,7 @@ async function crearActividad(datos) {
         divModales.classList.add('modales');
         divModales.append(infoElemento);
 
-        tarjeta.append(
-            frase,
-            crearBotoneraModal(`Info${contadorAux}`)
-        );
-        
         contenedorModales.append(divModales);
-        tarjetas.append(tarjeta);
         contadorAux ++;
     }
 
