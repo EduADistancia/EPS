@@ -4,22 +4,27 @@
     border-radius: 30px;
 }
 
-#contenidoActividad > h2 {
+#contenidoActividad h2 {
     background-color: var(--color3);
     /* margin: 1rem; */
     padding: 1.5rem 2rem;
-    border-radius: 30px;
+    border-radius: 20px;
+    height: 6rem;
 }
 
-#contenidoActividad > p {
+#contenidoActividad p {
     padding: 0 2rem;
 }
 /* Drag & Drop */ 
 div.word {
-    margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0.5rem 1em;
 }
 
-div.word > details {
+div.word {
     border-radius: 10px;
     padding: 0.5rem 0.5rem;
     background-color: var(--color2);
@@ -28,10 +33,26 @@ div.word > details {
     text-align: center;
 }
 
-div.word > details > p {
+/* div.word > details > p {
     padding: 0.5rem;
     text-align: left;
     line-height: 1.5rem;
+} */
+
+div.word button {
+    width: 2.5rem;
+    aspect-ratio: 1;
+    text-shadow: none;
+    border: none;
+    background-color: transparent;
+    color: var(--color5);
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+div.word button:hover {
+    color: var(--color4);
+    background-color: var(--color1);
 }
 
 .drop-highlight {
@@ -50,7 +71,12 @@ div.word > details > p {
 
 div.word.dropped {
     margin: 0.5rem 0;
+    padding: 0;
     font-size: smaller;
+}
+
+div.word.dropped button {
+    display: none;
 }
 
 /* Retroalimentación */
@@ -107,8 +133,16 @@ div.word.dropped {
         margin: 0.25rem 0;
     }
 
+    summary {
+        font-size: smaller;
+    }
+
     .retroalimentacion {
         flex-direction: column-reverse;
+    }
+
+    #contenidoActividad h2 {
+        height: 4.5rem;
     }
 }
 
@@ -126,16 +160,35 @@ div.word.dropped {
     div.word.dropped {
         margin: 0.25rem 0;
     }
+
+    #contenidoActividad h2 {
+        height: 4.5rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #elementosActividad {
+    .flexContainer {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 70% 30%;
+        padding: 0 0.5rem;
+    }
+
+    .flexContainer > div {
+        margin: 0.5rem;
+    }
+
+    #elementosActividad {
+        display: flex;
+        flex-direction: column;
     }
 
     div#reinosBiologicos > button.reino > div > p {
         display: inherit;
+    }
+
+    #contenidoActividad h2 {
+        height: 6rem;
+        text-align: center;
     }
 }

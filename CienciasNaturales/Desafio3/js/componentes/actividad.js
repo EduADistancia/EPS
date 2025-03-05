@@ -1,4 +1,3 @@
-
 // Creación de modales
 function crearModalLista(idModal, titulo, subTitulo, items) {
     let dialogReino = document.createElement('dialog');
@@ -49,7 +48,7 @@ function crearModalExtras(idModal, titulo, texto) {
 // Cierre de modal
 function crearBotonCerrarModal(idModal) {
     let cerrarDialog = document.createElement('button');
-    cerrarDialog.innerText = "🗙";
+    cerrarDialog.innerText = "x";
     cerrarDialog.title = "Cerrar";
     cerrarDialog.id = `cerrar${idModal}`;
     let divCerrar =  document.createElement('div');
@@ -74,6 +73,7 @@ async function crearIndicaciones(datos) {
     for (let dato of datos.reinos) {
         let botonReino = document.createElement('button');
         botonReino.classList.add('infoBotonImg', 'reino', 'drop-area');
+        botonReino.title = "Ver descripción";
         botonReino.value = dato.reino;
         botonReino.id = dato.reino;
 
@@ -109,6 +109,7 @@ async function crearIndicaciones(datos) {
         let modalExtraDef = crearModalExtras(
             dato.clave, dato.termino, dato.definicion);
         defExtras.append(modalExtraDef);
+        document.querySelectorAll('button.defExtra').forEach(b => b.title = "Ver descripción");
     }
 
 }
@@ -116,6 +117,7 @@ async function crearIndicaciones(datos) {
 // Modificación del HTML - Actividad
 async function crearActividad(datos) {
     let contenedorDraggables = document.querySelector("#elementosActividad");
+    let contenedorModalesElementos = document.querySelector('#elementosEncontrados')
 
     for (let dato of datos) {
         let elementoDraggable = document.createElement('div');
@@ -123,15 +125,33 @@ async function crearActividad(datos) {
         elementoDraggable.draggable = true;
         elementoDraggable.setAttribute('name', dato.reino);
 
-        let details = document.createElement('details');
-        let tituloElemento = document.createElement('summary');
-        tituloElemento.textContent = dato.elemento;
-        let descripcionElemento = document.createElement('p');
-        descripcionElemento.textContent = dato.descripcion;
+        let elemento = document.createElement('p');
+        elemento.textContent = dato.elemento;
 
-        details.append(tituloElemento, descripcionElemento)
+        let botonDescripcion = document.createElement('button');
+        botonDescripcion.textContent = "🛈";
+        botonDescripcion.title = "Ver descripción"
+        botonDescripcion.value = dato.elemento.replace(" ", "");
+        botonDescripcion.classList.add('elementoDescripcion')
 
-        elementoDraggable.append(details);
+        let modalElemento = crearModalExtras(
+            dato.elemento.replace(" ", ""),
+            dato.elemento,
+            dato.descripcion
+        );
+
+        modalElemento.classList.add('elementoModal');
+        contenedorModalesElementos.append(modalElemento);
+        // let details = document.createElement('details');
+        // let tituloElemento = document.createElement('summary');
+        // tituloElemento.textContent = dato.elemento;
+        // let descripcionElemento = document.createElement('p');
+        // descripcionElemento.textContent = dato.descripcion;
+
+        // details.append(tituloElemento, descripcionElemento)
+
+        // elementoDraggable.append(details);
+        elementoDraggable.append(elemento, botonDescripcion);
 
         contenedorDraggables.append(elementoDraggable);
     }

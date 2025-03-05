@@ -1,7 +1,7 @@
 // Manejo de modales (<dialog>)
 
 async function abrirModal() {
-    let botonesInfo = document.querySelectorAll('.infoBotonImg, .defExtra');
+    let botonesInfo = document.querySelectorAll('.infoBotonImg, .defExtra, .elementoDescripcion');
     botonesInfo.forEach(boton => boton.addEventListener('click', ()=> {
         let modal = document.querySelector(`#${boton.value}`);
         modal.parentElement.childNodes.forEach(m => {

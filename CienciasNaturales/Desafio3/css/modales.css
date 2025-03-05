@@ -15,8 +15,6 @@
 /* Modales */
 dialog {
     position: absolute;
-    width: auto;
-    margin: 1rem 2.5rem;
     color: var(--color4);
     background-color: var(--color1claro);
     border: none;
@@ -29,10 +27,12 @@ dialog p {
 }
 
 #reinoModales dialog:open {
+    margin: 1rem 2.5rem;
     display: flex;
     flex-direction: column;
     height: auto;
-    top: 35%;
+    top: 45%;
+    width: 65%;
 }
 
 #reinoModales dialog > h3 {
@@ -40,8 +40,9 @@ dialog p {
     margin: 2rem 1rem;
 }
 
-#reinoModales dialog > p {
-    margin: 0 1rem 1rem;
+#reinoModales p, #elementosEncontrados p, #definicionesExtras p {
+    padding: 0;
+    margin: 0;
 }
 
 dialog > img {
@@ -61,8 +62,12 @@ div.cerrarModal {
 }
 
 div.cerrarModal > button {
+    width: 2rem;
+    aspect-ratio: 1;
     margin: 0.5rem 0;
+    padding: 0.25rem;
     font-size: x-large;
+    font-weight: 700;
     border-style: none;
     border-radius: 50%;
     background-color: transparent;
@@ -81,16 +86,18 @@ div.cerrarModal > button:hover {
     padding: 1rem;
 }
 
-#definicionesExtras dialog * {
+#definicionesExtras dialog *, #elementosEncontrados dialog * {
     margin: 0.5rem 0;
 }
 
-#definicionesExtras dialog h4 {
+#definicionesExtras h4, #elementosEncontrados h4 {
     font-size: larger;
 }
 
 #definicionesExtras dialog:open {
-    bottom: 30%;
+    margin: 1rem 2.5rem;
+    width: 65%;
+    bottom: 10%;
 }
 
 button.defExtra {
@@ -107,6 +114,17 @@ button.defExtra:hover {
     background-color: var(--color2);
 }
 
+#elementosEncontrados dialog {
+    color: var(--color5);
+    background-color: var(--color4);
+}
+
+#elementosEncontrados dialog:open {
+    margin: 1rem 2.5rem 1rem 70%;
+    width: 25%;
+    top: 45%;
+    right: 5%;
+}
 
 /* PUNTOS DE CORTE */
 

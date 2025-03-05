@@ -53,14 +53,14 @@
 
     #reinosBiologicos {
         width: 300px; /* Ajusta según el tamaño del círculo */
-        height: 450px;
+        height: 400px;
         margin: 1rem auto;
         padding: 1rem auto;
     }
 
     .reino {
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         line-height: 1.5rem;
     }
 
@@ -75,7 +75,7 @@
 @media only screen and (min-width: 600px) {
     #reinosBiologicos {
         width: 600px; /* Ajusta según el tamaño del círculo */
-        height: 750px;
+        height: 620px;
         margin: 1rem auto;
         padding: 1rem auto;
     }
@@ -97,20 +97,24 @@
 @media only screen and (min-width: 992px) {
     #reinosBiologicos {
         width: 600px; /* Ajusta según el tamaño del círculo */
-        height: 810px;
+        height: 700px;
         margin: 1rem auto;
         padding: 1rem auto;
     }
 
+    #reinosBiologicos h3 {
+        font-size: 1.5rem;
+    }
+
     .reino {
-        width: 300px;
-        height: 300px;
+        width: 260px;
+        height: 260px;
         line-height: 1.5rem;
     }
 
-    .reino:nth-child(1) { transform: rotate(0deg) translateY(-270px) rotate(0deg); }
-    .reino:nth-child(2) { transform: rotate(72deg) translateY(-270px) rotate(-72deg); }
-    .reino:nth-child(3) { transform: rotate(144deg) translateY(-270px) rotate(-144deg); }
-    .reino:nth-child(4) { transform: rotate(216deg) translateY(-270px) rotate(-216deg); }
-    .reino:nth-child(5) { transform: rotate(288deg) translateY(-270px) rotate(-288deg); }
+    .reino:nth-child(1) { transform: rotate(0deg) translateY(-230px) rotate(0deg); }
+    .reino:nth-child(2) { transform: rotate(72deg) translateY(-230px) rotate(-72deg); }
+    .reino:nth-child(3) { transform: rotate(144deg) translateY(-230px) rotate(-144deg); }
+    .reino:nth-child(4) { transform: rotate(216deg) translateY(-230px) rotate(-216deg); }
+    .reino:nth-child(5) { transform: rotate(288deg) translateY(-230px) rotate(-288deg); }
 }
