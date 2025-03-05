@@ -1,56 +1,49 @@
 #contenidoActividad {
-    margin-top: 1.5rem;
+    margin: 1.5rem 0;
+    padding-bottom: 1.5rem;
     background-color: var(--color3claro);
     border-radius: 30px;
 }
 
 #contenidoActividad h2 {
     background-color: var(--color3);
-    /* margin: 1rem; */
     padding: 1.5rem 2rem;
     border-radius: 20px;
     height: 6rem;
 }
 
-#contenidoActividad p {
+#contenidoActividad h2 + p {
     padding: 0 2rem;
 }
-/* Drag & Drop */ 
-div.word {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0.5rem 1em;
-}
 
-div.word {
+/* Drag & Drop */ 
+#elementosActividad * {
     border-radius: 10px;
-    padding: 0.5rem 0.5rem;
+    margin: 0.25rem 0.25rem;
     background-color: var(--color2);
     color: var(--color5);
-    cursor: pointer;
     text-align: center;
 }
 
-/* div.word > details > p {
-    padding: 0.5rem;
-    text-align: left;
-    line-height: 1.5rem;
-} */
+#elementosActividad > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-div.word button {
+#elementosActividad p{
+    cursor: pointer;
+}
+
+#elementosActividad button {
     width: 2.5rem;
     aspect-ratio: 1;
     text-shadow: none;
     border: none;
-    background-color: transparent;
-    color: var(--color5);
     font-size: 2rem;
-    border-radius: 50%;
 }
 
-div.word button:hover {
+#elementosActividad button:hover {
     color: var(--color4);
     background-color: var(--color1);
 }
@@ -69,14 +62,13 @@ div.word button:hover {
     border-radius: 5px;
 }
 
-div.word.dropped {
+.dropped {
+    color: var(--color5);
+    background-color: var(--color2);
+    border-radius: 5px;
     margin: 0.5rem 0;
     padding: 0;
     font-size: smaller;
-}
-
-div.word.dropped button {
-    display: none;
 }
 
 /* Retroalimentación */
@@ -86,7 +78,7 @@ div.word.dropped button {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 1rem;
-    background-color: var(--color3);
+    background-color: var(--color3claro);
     border-radius: 20px;
 }
 
@@ -129,11 +121,7 @@ div.word.dropped button {
         display: none;
     }
 
-    div.word.dropped {
-        margin: 0.25rem 0;
-    }
-
-    summary {
+    #elementosActividad * {
         font-size: smaller;
     }
 
@@ -143,6 +131,12 @@ div.word.dropped button {
 
     #contenidoActividad h2 {
         height: 4.5rem;
+    }
+
+    #reinosBiologicos .dropped {
+        text-shadow: none;
+        padding: 0 0.25rem;
+        font-size: smaller;
     }
 }
 

@@ -121,13 +121,14 @@ async function crearActividad(datos) {
 
     for (let dato of datos) {
         let elementoDraggable = document.createElement('div');
-        elementoDraggable.classList.add('word');
-        elementoDraggable.draggable = true;
-        elementoDraggable.setAttribute('name', dato.reino);
-
+        elementoDraggable.classList.add(`cont${dato.elemento.replace(" ", "")}`)
+        
         let elemento = document.createElement('p');
         elemento.textContent = dato.elemento;
-
+        elemento.classList.add('word');
+        elemento.draggable = true;
+        elemento.setAttribute('name', dato.reino);
+        
         let botonDescripcion = document.createElement('button');
         botonDescripcion.textContent = "🛈";
         botonDescripcion.title = "Ver descripción"
@@ -142,15 +143,7 @@ async function crearActividad(datos) {
 
         modalElemento.classList.add('elementoModal');
         contenedorModalesElementos.append(modalElemento);
-        // let details = document.createElement('details');
-        // let tituloElemento = document.createElement('summary');
-        // tituloElemento.textContent = dato.elemento;
-        // let descripcionElemento = document.createElement('p');
-        // descripcionElemento.textContent = dato.descripcion;
 
-        // details.append(tituloElemento, descripcionElemento)
-
-        // elementoDraggable.append(details);
         elementoDraggable.append(elemento, botonDescripcion);
 
         contenedorDraggables.append(elementoDraggable);

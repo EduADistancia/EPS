@@ -12,11 +12,9 @@
     border: 5px solid var(--color1);
 }
 
-/* Modales */
+/* Modales general*/
 dialog {
     position: absolute;
-    color: var(--color4);
-    background-color: var(--color1claro);
     border: none;
     border-radius: 10px;
     z-index: 30;
@@ -26,35 +24,12 @@ dialog p {
     line-height: 1.5rem;
 }
 
-#reinoModales dialog:open {
-    margin: 1rem 2.5rem;
+dialog:open {
+    margin: 1rem 3.5rem;
     display: flex;
     flex-direction: column;
     height: auto;
-    top: 45%;
-    width: 65%;
 }
-
-#reinoModales dialog > h3 {
-    font-size: 2rem;
-    margin: 2rem 1rem;
-}
-
-#reinoModales p, #elementosEncontrados p, #definicionesExtras p {
-    padding: 0;
-    margin: 0;
-}
-
-dialog > img {
-    border-radius: 20px;
-    align-self: center;
-    width: 50%;
-    aspect-ratio: 1;
-}
-
-dialog::backdrop {
-    background-color: var(--color3claro);
-} 
 
 div.cerrarModal {
     display: flex;
@@ -64,8 +39,6 @@ div.cerrarModal {
 div.cerrarModal > button {
     width: 2rem;
     aspect-ratio: 1;
-    margin: 0.5rem 0;
-    padding: 0.25rem;
     font-size: x-large;
     font-weight: 700;
     border-style: none;
@@ -79,25 +52,30 @@ div.cerrarModal > button:hover {
     background-color: var(--color1);
 }
 
+div.cerrarModal + h3, div.cerrarModal + h4 {
+    font-size: 1.5rem;
+}
+
+div.cerrarModal + * {
+    margin: 1rem 0;
+}
+
+/* Modales: ubicación, tamaño, colores */
+
+#reinoModales dialog {
+    color: var(--color2);
+    background-color: var(--color1claro);
+}
+
+#elementosEncontrados dialog {
+    color: var(--color5);
+    background-color: var(--color4);
+}
+
 /* Botón a modal desde modal */
 #definicionesExtras dialog {
     color: var(--color5);
     background-color: var(--color2);
-    padding: 1rem;
-}
-
-#definicionesExtras dialog *, #elementosEncontrados dialog * {
-    margin: 0.5rem 0;
-}
-
-#definicionesExtras h4, #elementosEncontrados h4 {
-    font-size: larger;
-}
-
-#definicionesExtras dialog:open {
-    margin: 1rem 2.5rem;
-    width: 65%;
-    bottom: 10%;
 }
 
 button.defExtra {
@@ -114,41 +92,79 @@ button.defExtra:hover {
     background-color: var(--color2);
 }
 
-#elementosEncontrados dialog {
-    color: var(--color5);
-    background-color: var(--color4);
-}
-
-#elementosEncontrados dialog:open {
-    margin: 1rem 2.5rem 1rem 70%;
-    width: 25%;
-    top: 45%;
-    right: 5%;
-}
-
 /* PUNTOS DE CORTE */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+    dialog:open {
+        margin: 1rem 1.5rem;
+    }
+
+    dialog:open * {
+        font-size: medium;
+    }
+
     .infoBotonImg {
         font-size: medium;
     }
 
+    #reinoModales dialog:open,
+    #elementosEncontrados dialog:open,
+    #definicionesExtras dialog:open 
+    {
+        width: 90%;
+    }
+    
     #reinoModales dialog:open {
-        top: 35%;
+        top: 45%;
+        height: 15%;
+        overflow-y: scroll;
     }
 
     #definicionesExtras dialog:open {
-        bottom: 15%;
+        top: 62%;
+    }
+
+    #elementosEncontrados dialog:open {
+        top: 80%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
-    
+    #reinoModales dialog:open {
+        top: 35%;
+        height: 25%;
+        overflow-y: scroll;
+    }
+
+    #definicionesExtras dialog:open {
+        top: 58%;
+    }
+
+    #elementosEncontrados dialog:open {
+        top: 76%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #reinoModales dialog:open {
+        top: 47%;
+        width: 60%;
+        height: auto;
+        overflow-y: hidden;
+    }
+    
+    #definicionesExtras dialog:open {
+        top: 80%;
+        width: 60%;
+    }
 
+    #elementosEncontrados dialog:open {
+        top: 47%;
+        width: 25%;
+        margin-left: 70%;
+        right: 5%;
+    }
 }

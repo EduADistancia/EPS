@@ -4,7 +4,7 @@ async function activarAreas() {
 }
 
 function dragndrop(dropArea){
-    const words = document.querySelectorAll('div.word');
+    const words = document.querySelectorAll('p.word');
 
     // Variable para almacenar el elemento que se está arrastrando
     let draggedElement = null;
@@ -50,6 +50,9 @@ function dragndrop(dropArea){
             dropArea.appendChild(draggedElement);
             draggedElement.style.opacity = '1';
             dropArea.classList.remove('drop-highlight');
+            console.log(draggedElement.textContent.replace(" ", ""));
+            document.querySelector(`.cont${draggedElement.textContent.replace(" ", "")}`)
+                    .remove();
 
             if(document.querySelector('#elementosActividad').innerHTML === "") {
                 document.querySelector('#comprobar').classList.remove('oculto');
@@ -59,18 +62,10 @@ function dragndrop(dropArea){
 
     // Funciones para móviles
     function touchStart(event) {
-        // draggedElement = event.target;
-        // Buscar el contenedor más cercano con la clase 'word'
-        draggedElement = event.target.closest('.word');
-        
-        if (!draggedElement) return; // Evitar errores si no encuentra el elemento
-        
-        draggedElement.style.opacity = '0.5';
-        draggedElement.style.position = 'fixed';
-        draggedElement.style.zIndex = '1000';
-        // event.target.style.opacity = '0.5';
-        // event.target.style.position = 'fixed';
-        // event.target.style.zIndex = '1000';
+        draggedElement = event.target;
+        event.target.style.opacity = '0.5';
+        event.target.style.position = 'fixed';
+        event.target.style.zIndex = '1000';
     }
 
     function touchMove(event) {
@@ -95,7 +90,6 @@ function dragndrop(dropArea){
         const touch = event.changedTouches[0];
         const dropAreaRect = dropArea.getBoundingClientRect();
         
-        
         if (touch.clientX >= dropAreaRect.left &&
             touch.clientX <= dropAreaRect.right &&
             touch.clientY >= dropAreaRect.top &&
@@ -103,6 +97,8 @@ function dragndrop(dropArea){
 
             dropArea.appendChild(draggedElement);
             draggedElement.classList.add('dropped');
+            document.querySelector(`.cont${draggedElement.textContent.replace(" ", "")}`)
+                    .remove();
             
             if(document.querySelector('#elementosActividad').innerHTML === "") {
                 document.querySelector('#comprobar').classList.remove('oculto');
