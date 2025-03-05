@@ -1,0 +1,59 @@
+/* Modales */
+
+dialog {
+    position: absolute;
+    width: auto;
+    margin: 1rem 2.5rem;
+    color: var(--color5);
+    background-color: var(--color2);
+    border: none;
+    border-radius: 10px;
+    z-index: 30;
+}
+
+dialog:open {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+dialog > p {
+    padding-bottom: 3rem;
+}
+dialog > img {
+    border-radius: 20px;
+    align-self: center;
+    width: 50%;
+    aspect-ratio: 1;
+}
+
+dialog::backdrop {
+    background-color: var(--color3claro);
+} 
+
+div.cerrarModal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.cerrarModal > button {
+    margin: 1rem 0;
+    font-size: x-large;
+    border-style: none;
+    background-color: transparent;
+    color: var(--color5);
+}
+
+div.cerrarModal > button:hover {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    dialog > img {
+        width: 90%;
+    }
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap');
+
+@import url(./colores.css);
+
+/* PRINCIPALES */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
+}
+
+#contenedor {
+    position: relative;
+    min-height: 100vh;
+    max-width: 1200px;
+    background-color: var(--color5);
+}
+
+#contenido {
+    padding: 0 2%;
+    margin: 0 1%;
+}
+
+/* MEMBRETE */
+.membrete {
+    width: 100%;
+}
+
+#membsup {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* CONTENIDO */
+#contenido > header, 
+#contenido > main, 
+#contenido > footer {
+    margin: 0.5rem 0;
+}
+
+.divHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgCabecera {
+    border-radius: 10px;
+    width: 30%;
+    margin-right: 10%;
+}
+
+h2, section {
+    margin: 1rem 0;
+}
+
+section > p {
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.cabSection {
+    display: flex;
+    align-items: center;
+}
+
+i > img {
+    width: 3rem;
+    margin-right: 0.5rem;
+
+}
+
+ul, ol {
+    line-height: 2rem;
+}
+
+.botonera {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    width: auto;
+    min-height: 4rem;
+    max-height: 6rem;
+    font-weight: 700;
+    border: none;
+    font-size: large;
+    border-radius: 999px;
+    padding: 0.5rem 5%;
+    margin: 0.25rem 0.25rem;
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+.boton:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    body {
+        display: block;
+    }
+
+    #contenido {
+        font-size: larger;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #contenido {
+        font-size: larger;
+    }
+
+    body {
+        display: block;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    .imgCabecera {
+        width: 20%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #contenido {
+        font-size: large;
+    }    
+    
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .imgCabecera {
+        width: 15%;
+    }
+}

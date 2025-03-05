@@ -1,0 +1,136 @@
+/* Acceso modal */
+.infoBotonImg {
+    font-size: large;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.infoBotonImg:hover {
+    color: var(--color5);
+    background-color: var(--color2);
+    border: 5px solid var(--color1);
+}
+
+/* Modales */
+dialog {
+    position: absolute;
+    width: auto;
+    margin: 1rem 2.5rem;
+    color: var(--color4);
+    background-color: var(--color1claro);
+    border: none;
+    border-radius: 10px;
+    z-index: 30;
+}
+
+dialog p {
+    line-height: 1.5rem;
+}
+
+#reinoModales dialog:open {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    top: 35%;
+}
+
+#reinoModales dialog > h3 {
+    font-size: 2rem;
+    margin: 2rem 1rem;
+}
+
+#reinoModales dialog > p {
+    margin: 0 1rem 1rem;
+}
+
+dialog > img {
+    border-radius: 20px;
+    align-self: center;
+    width: 50%;
+    aspect-ratio: 1;
+}
+
+dialog::backdrop {
+    background-color: var(--color3claro);
+} 
+
+div.cerrarModal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.cerrarModal > button {
+    margin: 0.5rem 0;
+    font-size: x-large;
+    border-style: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--color5);
+}
+
+div.cerrarModal > button:hover {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+/* Botón a modal desde modal */
+#definicionesExtras dialog {
+    color: var(--color5);
+    background-color: var(--color2);
+    padding: 1rem;
+}
+
+#definicionesExtras dialog * {
+    margin: 0.5rem 0;
+}
+
+#definicionesExtras dialog h4 {
+    font-size: larger;
+}
+
+#definicionesExtras dialog:open {
+    bottom: 30%;
+}
+
+button.defExtra {
+    border: none;
+    background-color: var(--color3claro);
+    border-radius: 10px;
+    padding: 0.25rem 0.5rem;
+    font-size: inherit;
+    font-weight: 600;
+}
+
+button.defExtra:hover {
+    color: var(--color5);
+    background-color: var(--color2);
+}
+
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .infoBotonImg {
+        font-size: medium;
+    }
+
+    #reinoModales dialog:open {
+        top: 35%;
+    }
+
+    #definicionesExtras dialog:open {
+        bottom: 15%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}

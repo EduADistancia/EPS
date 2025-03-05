@@ -1,0 +1,79 @@
+/* Drag & Drop */ 
+.drop-area {
+    background-color: var(--color3);
+    padding: 0.5rem;
+    height: 10rem;
+}
+
+.word {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 2rem;
+    background-color: var(--color2);
+    color: var(--color5);
+    cursor: pointer;
+    overflow-x: auto;
+}
+
+.word > p {
+    text-align: left;
+}
+
+.drop-highlight {
+    color: #153244;
+    background-color: #ffcc00;
+}
+
+.oculto {
+    display: none;
+}
+
+.drop-mov {
+    background-color: #8de2d6;
+    border-radius: 5px;
+}
+
+.dropped {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: smaller;
+    line-height: 1rem;
+}
+
+/* Retroalimentación */
+
+.retroalimentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: var(--color3);
+    border-radius: 20px;
+}
+
+.retroalimentacion > * {
+    margin-bottom: 1rem;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}

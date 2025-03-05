@@ -1,0 +1,67 @@
+[
+    {
+        "teoria": "Creacionismo",
+        "fragmento": "El universo y toda la vida fue creada por un ser supremo. ",
+        "pista": "Explica la creación divina de la vida"
+    },
+    {
+        "teoria": "Generación espontánea",
+        "fragmento": "Un trozo de carne en descomposición observada en un laboratorio generó larvas espontáneamente, sin intervención de organismos previos.",
+        "pista": "Se refiere directamente a la hipótesis original de esta teoría, aunque hoy sabemos que es incorrecta."
+    },
+    {
+        "teoria": "Abiogénesis",
+        "fragmento": "Las moléculas orgánicas surgieron en un ambiente sin oxígeno, facilitado por energía como descargas eléctricas o radiación solar.",
+        "pista": "Describe las condiciones iniciales que facilitaron la abiogénesis."
+    },
+    {
+        "teoria": "Panspermia",
+        "fragmento": "La vida en la Tierra podría haber sido sembrada por cometas o asteroides que impactaron en sus océanos primitivos.",
+        "pista": "Describe un mecanismo posible de transferencia de vida interplanetaria."
+    },
+    {
+        "teoria": "Panspermia",
+        "fragmento": "Los análisis de meteoritos revelaron la presencia de aminoácidos, componentes básicos de la vida.",
+        "pista": "Relación directa con la idea de que la vida pudo llegar del espacio."
+    },
+    {
+        "teoria": "Generación espontánea",
+        "fragmento": "Las ranas parecían surgir del lodo húmedo en las orillas de los ríos.",
+        "pista": "Refleja las ideas históricas sobre la generación espontánea antes de ser refutadas."
+    },
+    {
+        "teoria": "Abiogénesis",
+        "fragmento": "En la Tierra primitiva, los compuestos simples como agua, metano y amoníaco pudieron formar moléculas orgánicas más complejas.",
+        "pista": "Fundamental para la idea de la abiogénesis."
+    },
+    {
+        "teoria": "Creacionismo",
+        "fragmento": "Las especies fueron creadas tal y como las conocemos, no experimentan cambios.",
+        "pista": "Ejemplifica la creación de las especies y la inmutabilidad de las mismas"
+    },
+    {
+        "teoria": "Generación espontánea",
+        "fragmento": "El experimento de Francesco Redi con frascos y carne demostró que las larvas no aparecían espontáneamente si se cubría el recipiente.",
+        "pista": "Muestra cómo esta teoría fue refutada con experimentación."
+    },
+    {
+        "teoria": "Abiogénesis",
+        "fragmento": "La formación espontánea de vesículas lipídicas en soluciones acuosas demuestra cómo pudieron originarse membranas primitivas.",
+        "pista": "Apoya el desarrollo de estructuras celulares primitivas."
+    },
+    {
+        "teoria": "Panspermia",
+        "fragmento": "Las moléculas orgánicas detectadas en la atmósfera de Titán sugieren que estos compuestos pueden ser comunes en el universo.",
+        "pista": "Indica la abundancia potencial de los bloques de vida en otros cuerpos celestes."
+    },
+    {
+        "teoria": "Abiogénesis",
+        "fragmento": "Los experimentos de Miller-Urey demostraron que las condiciones de la atmósfera primitiva podían producir aminoácidos.",
+        "pista": "Un hito experimental clave que respalda esta teoría."
+    },
+    {
+        "teoria": "Creacionismo",
+        "fragmento": "Todo lo que existe incluso los seres humanos, fue creado con un propósito y diseño específico siguiendo un plan divino.",
+        "pista": "Refleja que todo responde a un plan divino"
+    }
+]

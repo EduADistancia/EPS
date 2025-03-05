@@ -1,0 +1,51 @@
+#scrollH {
+    margin-top: 2rem;
+    overflow-x: scroll;
+}
+
+table {
+    text-align: center;
+    border-spacing: 2px 10px;
+}
+
+#orden tr >  td {
+    background-color: #153244;
+    color: white;
+}
+
+table#orden {
+    min-width: 10rem;
+}
+
+table#datos {
+    min-width: 24rem;
+}
+
+td, th {
+    height: 60px;
+    padding: 0.5rem 0.5rem;    
+}
+
+th {
+    background-color: #153244;
+    color: white;
+}
+
+table > tr {
+    background-color: #8de2d6;
+    cursor: move;
+}
+
+tr.orden > td{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dragging {
+    color: white;
+    background-color: #153244; /* Azul claro */
+    opacity: 0.8;
+    transform: scale(1.02); /* Agranda ligeramente la fila */
+    transition: background-color 0.3s;
+}

@@ -1,0 +1,116 @@
+#reinosBiologicos {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+#reinosBiologicos h3 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-shadow: 1px 1px var(--color3);
+} 
+
+#reinosBiologicos p {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.reino {
+    position: absolute;
+    width: 200px; /* Ajusta según sea necesario */
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+}
+
+
+.reino::before {
+    /* Fondo */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.45; /* Ajusta la opacidad según necesites */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+    border-radius: 50%;
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #reinosBiologicos h3, #reinosBiologicos p {
+        font-size: 1rem;
+        font-weight: 600;
+        text-shadow: 1px 1px var(--color3);
+    }
+
+    #reinosBiologicos {
+        width: 300px; /* Ajusta según el tamaño del círculo */
+        height: 450px;
+        margin: 1rem auto;
+        padding: 1rem auto;
+    }
+
+    .reino {
+        width: 150px;
+        height: 150px;
+        line-height: 1.5rem;
+    }
+
+    .reino:nth-child(1) { transform: rotate(0deg) translateY(-130px) rotate(0deg); }
+    .reino:nth-child(2) { transform: rotate(72deg) translateY(-130px) rotate(-72deg); }
+    .reino:nth-child(3) { transform: rotate(144deg) translateY(-130px) rotate(-144deg); }
+    .reino:nth-child(4) { transform: rotate(216deg) translateY(-130px) rotate(-216deg); }
+    .reino:nth-child(5) { transform: rotate(288deg) translateY(-130px) rotate(-288deg); }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #reinosBiologicos {
+        width: 600px; /* Ajusta según el tamaño del círculo */
+        height: 750px;
+        margin: 1rem auto;
+        padding: 1rem auto;
+    }
+
+    .reino {
+        width: 220px;
+        height: 220px;
+        line-height: 1.5rem;
+    }
+
+    .reino:nth-child(1) { transform: rotate(0deg) translateY(-210px) rotate(0deg); }
+    .reino:nth-child(2) { transform: rotate(72deg) translateY(-210px) rotate(-72deg); }
+    .reino:nth-child(3) { transform: rotate(144deg) translateY(-210px) rotate(-144deg); }
+    .reino:nth-child(4) { transform: rotate(216deg) translateY(-210px) rotate(-216deg); }
+    .reino:nth-child(5) { transform: rotate(288deg) translateY(-210px) rotate(-288deg); }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #reinosBiologicos {
+        width: 600px; /* Ajusta según el tamaño del círculo */
+        height: 810px;
+        margin: 1rem auto;
+        padding: 1rem auto;
+    }
+
+    .reino {
+        width: 300px;
+        height: 300px;
+        line-height: 1.5rem;
+    }
+
+    .reino:nth-child(1) { transform: rotate(0deg) translateY(-270px) rotate(0deg); }
+    .reino:nth-child(2) { transform: rotate(72deg) translateY(-270px) rotate(-72deg); }
+    .reino:nth-child(3) { transform: rotate(144deg) translateY(-270px) rotate(-144deg); }
+    .reino:nth-child(4) { transform: rotate(216deg) translateY(-270px) rotate(-216deg); }
+    .reino:nth-child(5) { transform: rotate(288deg) translateY(-270px) rotate(-288deg); }
+}

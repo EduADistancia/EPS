@@ -1,0 +1,37 @@
+[
+    {
+        "elemento": "Lumitas",
+        "tipo": "ser vivo",
+        "info": "Son parecidas a unas medusas sin tentáculos, como esferas que flotan y se iluminan. <br><br>Cuando se las expone al frío o al calor cambian de color. Al observarlos con el microscopio se ven que están formadas por una sola célula, son unicelulares. <br><br>Observamos varios individuos de diferentes edades agrupados por lo cual se reproducen, presentan un metabolismo sencillo. Pueden mantener su medio interno estable, es decir presentan homeostasis. <br><br>Dado su forma y comportamiento podemos concluir que está adaptadas al medio en el que se las encontró.",
+        "faltante": "irritabilidad",
+        "img": "./img/Elemento1.png"
+    },
+    {
+        "elemento": "Númidas",
+        "tipo": "ser vivo",
+        "info": "Son parecidas a líquenes, un tipo de hongo, de color verde oscuro y de textura esponjosa, se agrupan formando mantos sobre estructuras rocosas, tienen algo de movilidad. <br><br>Al término de un tiempo (un par de horas) los mantos empiezan a hacerse más grandes y cubren más cantidad de superficie rocosa, la cantidad de númidas aumentó en ese tiempo. Al observar en el microscopio está formado por varias células. <br><br>Las númidas presentan también un metabolismo sencillo, homeostasis e irritabilidad, se evidencia que están adaptadas al medio en el que fueron halladas.",
+        "faltante": "reproducción",
+        "img": "./img/Elemento2.png"
+    },
+    {
+        "elemento": "Estelvinas",
+        "tipo": "ser vivo",
+        "info": "Son similares a plantas pero con raíces aéreas, están formadas por una especie de hojas largas similares a alas de aves de color lila, que se despliegan y mueven con el movimiento de las estrellas, es decir responden a ese estímulo, presentan así irritabilidad. <br><br>Sus hojas están adaptadas a la luz estelar, la cual utilizan para producir su propio alimento mediante un metabolismo llamado fotosíntesis. <br><br>Presentan también homeostasis. Su reproducción es similar a las plantas con flores de nuestro planeta Tierra. Al observar en el microscopio, están formadas por varias células.",
+        "faltante": "adaptación",
+        "img": "./img/Elemento3.png"
+    },
+    {
+        "elemento": "Mírico",
+        "tipo": "sin vida",
+        "info": "Son formaciones similares a cristales que emergen del suelo como picos afilados, pueden ser transparentes o de varios colores dependiendo la cantidad de energía que absorben. <br><br>La energía solar y del cosmos captada por estos elementos se libera pudiendo sentir calor cuando se los toca, por lo que al liberar esta energía se puede suponer que son reguladores de la energía del ambiente permitiendo un clima más equilibrado. <br><br>Ante las diferentes pruebas, no consumen ni producen alimento, carecen de cualquier tipo de metabolismo.",
+        "faltante": "no aplica",
+        "img": "./img/Elemento4.png"
+    },
+    {
+        "elemento": "Fluvitos",
+        "tipo": "sin vida",
+        "info": "Son estructuras parecidas a bolas de telgopor, con textura porosa y que flotan en el agua u otros líquidos más gelatinosos, de superficie irregular y colores anaranjados ocre. <br><br>Se las encuentra agrupadas formando una especie de isla que se mueve por el agua. <br><br>Se las observa asociada a otros elementos proporcionando refugio para ellos. Estas islas permanecen siempre del mismo tamaño.",
+        "faltante": "no aplica",
+        "img": "./img/Elemento5.png"
+    }
+]

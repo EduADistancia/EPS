@@ -1,0 +1,137 @@
+#contenidoActividad {
+    margin-top: 1.5rem;
+    background-color: var(--color3claro);
+    border-radius: 30px;
+}
+
+#contenidoActividad > h2 {
+    background-color: var(--color3);
+    /* margin: 1rem; */
+    padding: 1.5rem 2rem;
+    border-radius: 30px;
+}
+
+#contenidoActividad > p {
+    padding: 0 2rem;
+}
+/* Drag & Drop */ 
+div.word {
+    margin: 1rem 2rem;
+}
+
+div.word > details {
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--color2);
+    color: var(--color5);
+    cursor: pointer;
+    text-align: center;
+}
+
+div.word > details > p {
+    padding: 0.5rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.drop-highlight {
+    color: #153244;
+    background-color: #ffcc00;
+}
+
+.oculto {
+    display: none;
+}
+
+.drop-mov {
+    background-color: #8de2d6;
+    border-radius: 5px;
+}
+
+div.word.dropped {
+    margin: 0.5rem 0;
+    font-size: smaller;
+}
+
+/* Retroalimentación */
+
+.retroalimentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: var(--color3);
+    border-radius: 20px;
+}
+
+.retroalimentacion > * {
+    margin-bottom: 1rem;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}
+
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #elementosActividad {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    div#reinosBiologicos > button.reino > div > p {
+        display: none;
+    }
+
+    div.word.dropped {
+        margin: 0.25rem 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #elementosActividad {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    div#reinosBiologicos > button.reino > div > p {
+        display: none;
+    }
+
+    div.word.dropped {
+        margin: 0.25rem 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #elementosActividad {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    div#reinosBiologicos > button.reino > div > p {
+        display: inherit;
+    }
+}

@@ -1,0 +1,15 @@
+## Actividades EPS
+### Materias incluidas:
+- Ciencias Naturales
+- Lengua y Literatura
+
+---
+### Links a despliegues:
+#### Ciencias Naturales
+- [Desafío 1 - Determinar qué elementos encontrados son seres vivos y cuáles no.](https://eduadistancia.github.io/EPS/CienciasNaturales/Desafio1)
+- [Desafío 1.1 - Clasificar Especie X1.](https://eduadistancia.github.io/EPS/CienciasNaturales/Desafio1-1)
+- [Desafío 2 - Ubicar los fragmentos en cada teoría.](https://eduadistancia.github.io/EPS/CienciasNaturales/Desafio2)
+- [Desafío 3 - Ubicar elementos en cada compartimento](https://eduadistancia.github.io/EPS/CienciasNaturales/Desafio3)
+
+#### Lengua y Literatura
+- [Desafío 1 - Ordenar los sucesos](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio1)

@@ -1,0 +1,157 @@
+/* Tarjetas */
+.tarjetaDinamica {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.tarjetaDinamica > * {
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+
+div.tarjetaCabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.tarjetaCabecera > h2 {
+    font-size: xx-large;
+}
+
+div.tarjetaCabecera > form {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.imgContenedor {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.imgContenedor > div {
+    position: absolute;
+    transform: translateY(180px);
+}
+
+.imgContenedor > img {
+    border-radius: 20px;
+    width: 250px;
+    aspect-ratio: 1;
+}
+
+.infoBotonImg, .zoomBotonImg {
+    font-size: larger;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1;
+    padding: 0.25rem;
+}
+
+.infoBotonImg:hover, .zoomBotonImg:hover {
+    background-color: var(--color1);
+}
+
+.infoBotonImg {
+    transform: translateX(20px);
+}
+
+.zoomBotonImg {
+    transform: translateX(130px);
+}
+
+input {
+    margin: 0 0.5rem;
+}
+
+.seleccionado {
+    background-color: #ffcc008a;
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #153244;
+    border-radius: 5px;
+}
+
+/* Drag & Drop */ 
+div.contenedorDraggables {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+.drop-area {
+    padding: 0.5rem;
+    /* font-size: 2rem; */
+}
+
+.word {
+    font-size: medium;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    margin: 0.25rem 0.25rem;
+    background-color: var(--color2);
+    color: var(--color5);
+    cursor: pointer;
+    border-style: dashed;
+    overflow-x: auto;
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    margin: 0.5rem 0;
+    background-color: var(--color5);
+}
+
+.drop-highlight {
+    color: #153244;
+    background-color: #ffcc00;
+}
+
+.oculto {
+    display: none;
+}
+
+.drop-mov {
+    background-color: #8de2d6;
+    border-radius: 5px;
+}
+
+/* Retroalimentación */
+
+.retroalimentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: var(--color3);
+    border-radius: 20px;
+}
+
+.retroalimentacion > * {
+    margin-bottom: 1rem;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}

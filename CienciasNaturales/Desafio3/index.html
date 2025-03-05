@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Area Educación a Distacia - Min. de Educación GCABA">
+    <meta name="description" content="Material didáctico adicional.">
+    <link rel="shortcut icon" href="./ico/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/circular.css">
+    <link rel="stylesheet" href="./css/actividad.css">
+    <link rel="stylesheet" href="./css/modales.css">
+    <title>EPS - Ciencias Naturales</title>
+</head>
+<body>
+    <div id="contenedor">
+        
+        <!-- Membrete superior -->
+        <div id="membsup">
+            <img class="membrete" src="./img/membreteHeader.jpg" alt="Membrete Ministerio de Educación GCABA">
+        </div>
+        
+        <!-- Contenido del documento -->
+        <div id="contenido" class="contPpal">
+            <header>
+                <div class="divHeader">
+                    <h1 id="titulo">Ciencias Naturales</h1>
+                    <img class="imgCabecera" src="./img/muestras.png" alt="Laboratorio">
+                </div>
+            </header>
+
+            <main>
+                <section id="indicaciones">
+                    <div class="cabSection">
+                        <i><img src="./img/arrastrar-y-soltar.png" alt="Icono arrastrar y soltar"></i>
+                        <h2>Arrastrar y soltar</h2>
+                    </div>
+                    <p>Tenemos en  la nave diferentes elementos con su descripción, deben tomarlos y llevarlos al compartimento del reino que corresponda.</p>
+                    <p>En cada compartimento encontrarán las características propias de cada Reino, para verlas  deben hacer «click» en cada uno.</p>
+                    <p>Luego de ubicar todos los elementos, presionar «Comprobar».</p>
+                </section>
+
+                <section id="contenidoActividad">
+
+                    <!-- Contenido dinámico -->
+                    <div id="contendorModales">
+                        <div id="reinoModales"></div>
+                        <div id="definicionesExtras"></div>
+                    </div>
+                    <h2>Compartimentos</h2>
+                    <div id="reinosBiologicos"></div>
+                    <h2>Elementos encontrados</h2>
+                    <p>Al presionarlos sin arrastrar podrán ver su descripción.</p>
+                    <div id="elementosActividad"></div>
+                </section>
+            </main>
+
+            <footer>
+                <div class="botonera">
+                    <button id="comprobar" class="boton oculto">Comprobar</button>
+                    <button id="reintentar" class="boton oculto">Reintentar</button>
+                    <button id="volver" class="boton oculto">Volver</button>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

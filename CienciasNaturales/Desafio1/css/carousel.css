@@ -1,0 +1,20 @@
+@import url(./colores.css);
+
+.oculto {
+    display: none;
+}
+
+.tarjetaDinamica {
+    height: auto;
+    background-color: var(--color3claro);
+    border-radius: 20px;
+}
+
+.tarjetaDinamica > div {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: auto;
+    width: auto;
+}

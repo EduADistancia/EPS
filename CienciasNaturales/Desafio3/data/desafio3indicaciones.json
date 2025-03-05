@@ -1,0 +1,123 @@
+{
+    "reinos": [
+        {
+            "reino": "Monera",
+            "subReino": "(Bacterias: Archaebacteria y Eubacteria)",
+            "imgReino": "./img/monera.webp",
+            "definicion": [
+                "Son organismos <button class=\"defExtra\" value=\"unicelular\">unicelulares</button> y <button class=\"defExtra\" value=\"procarionte\">procariontes</button> (sin núcleo definido).",
+                "Su material genético está disperso en el <button class=\"defExtra\" value=\"citoplasma\">citoplasma</button>.",
+                "Pueden ser <button class=\"defExtra\" value=\"autótrofo\">autótrofos</button> (<button class=\"defExtra\" value=\"fotosíntesis\">fotosintéticos</button> o quimiosintéticos) o <button class=\"defExtra\" value=\"heterótrofo\">heterótrofos</button>.",
+                "Se reproducen principalmente por fisión binaria (<button class=\"defExtra\" value=\"asexual\">reproducción asexual</button>) generando colonias de ser vivos idénticos entre sí.",
+                "Muchas especies viven en condiciones extremas de temperatura y salinidad."
+            ]
+        },
+        {
+            "reino": "Protista",
+            "subReino": "(Protozoos y Algas)",
+            "imgReino": "./img/Protista.webp",
+            "definicion": [
+                "Son organismos <button class=\"defExtra\" value=\"unicelular\">unicelulares</button> o <button class=\"defExtra\" value=\"pluricelular\">pluricelulares</button> y <button class=\"defExtra\" value=\"eucarionte\">eucariontes</button> (con núcleo definido).",
+                "Los protozoos son <button class=\"defExtra\" value=\"heterótrofo\">heterótrofos</button>, mientras que las algas suelen ser <button class=\"defExtra\" value=\"autótrofo\">autótrofas</button>.",
+                "Viven en ambientes acuáticos o húmedos.",
+                "Se reproducen de manera <button class=\"defExtra\" value=\"asexual\">asexual</button> o <button class=\"defExtra\" value=\"sexual\">sexual</button> según la especie.",
+                "Algunos protozoos pueden desplazarse por medio de pseudópodos."
+            ]
+        },
+        {
+            "reino": "Fungi",
+            "subReino": "(Hongos, como los líquenes)",
+            "imgReino": "./img/Fungi.webp",
+            "definicion": [
+                "Son <button class=\"defExtra\" value=\"eucarionte\">eucariontes</button> y pueden ser <button class=\"defExtra\" value=\"unicelular\">unicelulares</button> (como las levaduras) o <button class=\"defExtra\" value=\"pluricelular\">pluricelulares</button> (como los mohos y setas).",
+                "Son <button class=\"defExtra\" value=\"heterótrofo\">heterótrofos</button> por absorción: descomponen materia orgánica en el ambiente.",
+                "Su <button class=\"defExtra\" value=\"paredCelular\">pared celular</button> está compuesta de una sustancia llamada quitina.",
+                "Se reproducen por <button class=\"defExtra\" value=\"espora\">esporas</button> y pueden tener ciclos sexuales y asexuales."
+            ]
+        },
+        {
+            "reino": "Plantae",
+            "subReino": "(Plantas)",
+            "imgReino": "./img/Plantae.webp",
+            "definicion": [
+                "Son organismos <button class=\"defExtra\" value=\"pluricelular\">pluricelulares</button>, <button class=\"defExtra\" value=\"eucarionte\">eucariontes</button> y <button class=\"defExtra\" value=\"autótrofo\">autótrofos</button> gracias a la <button class=\"defExtra\" value=\"fotosíntesis\">fotosíntesis</button>.",
+                "Su <button class=\"defExtra\" value=\"paredCelular\">pared celular</button> está hecha de una sustancia llamada celulosa.",
+                "Presentan tejidos especializados, como raíces, tallos y hojas.",
+                "Se reproducen sexualmente mediante semillas o <button class=\"defExtra\" value=\"espora\">esporas</button>, aunque también pueden reproducirse asexualmente."
+            ]
+        },
+        {
+            "reino": "Animalia",
+            "subReino": "(Animales)",
+            "imgReino": "./img/Animalia.jpg",
+            "definicion": [
+                "Son organismos <button class=\"defExtra\" value=\"pluricelular\">pluricelulares</button>, <button class=\"defExtra\" value=\"eucarionte\">eucariontes</button> y <button class=\"defExtra\" value=\"heterótrofo\">heterótrofos</button>.",
+                "No poseen <button class=\"defExtra\" value=\"paredCelular\">pared celular</button>.",
+                "Presentan tejidos diferenciados, como nervioso y muscular, lo que les permite movimiento.",
+                "Su reproducción es predominantemente <button class=\"defExtra\" value=\"sexual\">sexual</button>, aunque algunas especies pueden tener <button class=\"defExtra\" value=\"asexual\">reproducción asexual</button>."
+            ]
+        }
+    ],
+    "definicionesExtras": [
+        {
+            "clave": "unicelular",
+            "termino": "Unicelular",
+            "definicion": "Ser vivo compuesto por una sola célula."
+        },
+        {
+            "clave": "pluricelular",
+            "termino": "Pluricelular",
+            "definicion": "Ser vivo compuesto por muchas células."
+        },
+        {
+            "clave": "procarionte",
+            "termino": "Procarionte",
+            "definicion": "Ser vivo compuesto por células del tipo procariotas, que NO presentan un núcleo definido y su material genético se encuentra libre en el citoplasma, una estructura celular"
+        },
+        {
+            "clave": "eucarionte",
+            "termino": "Eucarionte",
+            "definicion": "Ser vivo compuesto por células del tipo eucariotas, que presentan un núcleo definido donde se encuentra el material genético."
+        },
+        {
+            "clave": "autótrofo",
+            "termino": "Autótrofo",
+            "definicion": "Ser vivo que produce por sí mismo la materia orgánica (alimento) que luego consume para obtener energía."
+        },
+        {
+            "clave": "heterótrofo",
+            "termino": "Heterótrofo",
+            "definicion": "Ser vivo que para obtener energía debe alimentarse de otros seres vivos, es decir, necesitan consumir materia orgánica."
+        },
+        {
+            "clave": "fotosíntesis",
+            "termino": "Fotosíntesis",
+            "definicion": "Es un proceso que se realiza en las células y consiste en un conjunto de reacciones químicas necesarias para producir la materia orgánica que utilizan los autótrofos como alimento. "
+        },
+        {
+            "clave": "asexual",
+            "termino": "Reproducción asexual",
+            "definicion": "Tipo de reproducción en la que interviene un solo individuo capaz de generar nuevos individuos."
+        },
+        {
+            "clave": "sexual",
+            "termino": "Reproducción sexual",
+            "definicion": "Tipo de reproducción en la que intervienen dos individuos, macho y hembra, necesarios para generar un nuevo individuo. "
+        },
+        {
+            "clave": "espora",
+            "termino": "Espora",
+            "definicion": "célula reproductiva asexual capaces de generar un nuevo ser vivo sin necesidad de fusionarse con otra célula."
+        },
+        {
+            "clave": "citoplasma",
+            "termino": "Citoplasma",
+            "definicion": "Es parte fundamental de la célula, es un líquido gelatinoso que llena el interior celular. Está compuesto principalmente por agua y sales. En él pueden encontrarse diversas estructuras celulares como por ejemplo, el núcleo de las células eucariotas. "
+        },
+        {
+            "clave": "paredCelular",
+            "termino": "Pared Celular",
+            "definicion": "Es la envoltura que rodea a algunas células, como las vegetales. Es una estructura rígida que le permite a la célula mantener su forma y tamaño. La presencia de pared celular distingue las células vegetales de las animales que carecen de ella."
+        }
+    ]
+}

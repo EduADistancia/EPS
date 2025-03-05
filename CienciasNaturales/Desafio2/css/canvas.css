@@ -1,0 +1,68 @@
+#scrollH {
+    width: fit-content;
+}
+
+#bizcanvas {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#bizcanvas tr {
+    background-color: var(--color3claro);
+    color: var(--color4);
+}
+
+#bizcanvas > tr {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#centrar {
+    text-align: center;
+    font-weight: 700;
+}
+
+textarea {
+    background-color: rgb(241, 241, 241);
+    margin: 0.5rem 0;
+    resize: none;
+    font-size: large;
+}
+
+.encabezadoTabla {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    min-height: 180px;
+    width: 220px;
+}
+
+.encabezadoTabla > h3 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.columnaCompletar {
+    vertical-align: top;
+}
+
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #scrollH {
+        width: auto;
+        overflow-x: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #scrollH {
+        width: auto;
+        overflow-x: auto;
+    }
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "elemento": "Elemento A",
+        "descripcion": "Una colonia de organismos microscópicos que prospera en fuentes hidrotermales extremas. No tienen núcleo definido.",
+        "reino": "Monera"
+    },
+    
+    {
+        "elemento": "Elemento B",
+        "descripcion": "Un organismo unicelular móvil que utiliza pseudópodos para desplazarse y alimentarse de partículas (heterótrofo).",
+        "reino": "Protista"
+    },
+    
+    {
+        "elemento": "Elemento C",
+        "descripcion": "Estructuras esponjosas que crecen sobre rocas y descomponen materia orgánica, produciendo esporas para reproducirse.",
+        "reino": "Fungi"
+    },
+    
+    {
+        "elemento": "Elemento D",
+        "descripcion": "Un organismo que produce oxígeno mediante fotosíntesis y flota en el agua estelar. Es microscópico y unicelular.",
+        "reino": "Protista"
+    },
+    
+    {
+        "elemento": "Elemento E",
+        "descripcion": "Una estructura con raíces aéreas y hojas violetas que se despliegan bajo la luz estelar para realizar fotosíntesis.",
+        "reino": "Plantae"
+    },
+    
+    {
+        "elemento": "Elemento F",
+        "descripcion": "Un organismo multicelular con movimiento propio, que reacciona ante estímulos y caza otras criaturas para alimentarse.",
+        "reino": "Animalia"
+    },
+    
+    {
+        "elemento": "Elemento G",
+        "descripcion": "Células individuales aisladas que sobreviven en condiciones extremas de salinidad, generando energía de compuestos químicos.",
+        "reino": "Monera"
+    },
+    
+    {
+        "elemento": "Elemento H",
+        "descripcion": "Pequeñas estructuras multicelulares con apariencia de sombreros que crecen en troncos caídos, absorbiendo nutrientes del ambiente. Sus células presentan quitina",
+        "reino": "Fungi"
+    },
+    
+    {
+        "elemento": "Elemento I",
+        "descripcion": "Una planta pequeña con hojas translúcidas que utiliza la luz de las estrellas para producir su propio alimento. Tiene semillas que germinan en pocos días.",
+        "reino": "Plantae"
+    },
+    {
+        "elemento":"Elemento J",
+        "descripcion": "Una criatura multicelular con aletas que utiliza para desplazarse en aguas estelares. Tiene ojos sensibles a la luz y un comportamiento social.",
+        "reino": "Animalia"
+    }
+]

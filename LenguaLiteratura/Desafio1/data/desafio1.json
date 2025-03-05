@@ -1,0 +1,72 @@
+[
+    {
+        "Tipo": "Concepto",
+        "Texto": "1",
+        "Valor": 1
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "2",
+        "Valor": 2
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "3",
+        "Valor": 3
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "4",
+        "Valor": 4
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "5",
+        "Valor": 5
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "6",
+        "Valor": 6
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "7",
+        "Valor": 7
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Alicia comienza a enfermar",
+        "Valor": 2
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Alicia y Jordán se casan",
+        "Valor": 1
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Alicia pasa sus días postrada en la cama, con delirios y alucinaciones",
+        "Valor":  4
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Se revela que el parásito fue la causa de la enfermedad de Alicia",
+        "Valor": 7
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Alicia muere",
+        "Valor": 5
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "La sirvienta y Jordán descubren al parásito en el almohadón",
+        "Valor": 6
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "El médico no encuentra explicación a la enfermedad",
+        "Valor": 3
+    }
+]
