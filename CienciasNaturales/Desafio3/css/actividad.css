@@ -106,6 +106,10 @@ div.word.dropped {
     div.word.dropped {
         margin: 0.25rem 0;
     }
+
+    .retroalimentacion {
+        flex-direction: column-reverse;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

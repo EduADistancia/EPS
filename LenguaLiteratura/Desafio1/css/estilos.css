@@ -135,11 +135,6 @@ i > img {
     body {
         display: block;
     }
-
-    .scrollH {
-        width: auto;
-        overflow-x: auto;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -156,22 +151,12 @@ i > img {
         display: block;
     }
 
-    .scrollH {
-        width: auto;
-        overflow-x: auto;
-    }
-
     h1 {
         font-size: 2em;
     }
     
     .imgCabecera {
         width: 20%;
-    }
-
-    #scrollH {
-        display: flex;
-        justify-content: center;
     }
 }
 
@@ -192,10 +177,5 @@ i > img {
 
     .imgCabecera {
         width: 15%;
-    }
-
-    #scrollH {
-        display: flex;
-        justify-content: center;
     }
 }

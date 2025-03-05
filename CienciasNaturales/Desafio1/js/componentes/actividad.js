@@ -113,12 +113,14 @@ async function crearActividad(datos) {
 
         let imgElemento = document.createElement('img');
         imgElemento.src = dato.img;
+        imgElemento.alt = dato.elemento;
         
         // <dialog>
         let imgElementoZoom = document.createElement('dialog');
         imgElementoZoom.id = `${dato.elemento}Zoom`;
         let auxImg = document.createElement('img');
         auxImg.src = dato.img;
+        auxImg.alt = dato.elemento;
         imgElementoZoom.append(crearBotonCerrarModal(`${dato.elemento}Zoom`), auxImg);
 
         let infoElemento = document.createElement('dialog');
