@@ -59,6 +59,7 @@ body {
 .imgCabecera {
     border-radius: 10px;
     width: 30%;
+    height: auto;
     margin-right: 10%;
 }
 
@@ -108,11 +109,7 @@ i > img {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     #contenido {
-        font-size: larger;
-    }
-
-    #orden, #datos {
-        font-size: medium;
+        font-size: large;
     }
 
     body {
@@ -123,13 +120,9 @@ i > img {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
     #contenido {
-        font-size: larger;
+        font-size: large;
     }
     
-    #orden, #datos {
-        font-size: medium;
-    }
-
     body {
         display: block;
     }
@@ -146,7 +139,7 @@ i > img {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #contenido {
-        font-size: large;
+        font-size: larger;
     }
 
     body {

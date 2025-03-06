@@ -1,0 +1,47 @@
+[
+    {
+        "personaje": "Alicia",
+        "descripcion": "Una joven recién casada, rubia, angelical y tímida, que sufre una extraña enfermedad.",
+        "tipo": "principal"
+    },
+    {
+        "personaje": "Jordán",
+        "descripcion": "Un hombre recién casado, alto, frío y reservado, incapaz de expresar sus sentimientos.",
+        "tipo": "principal"
+    },
+    {
+        "personaje": "El médico",
+        "descripcion": "Profesional de la salud que visita con frecuencia la casa de Alicia y Jordán.",
+        "tipo": "secundario"
+    },
+    {
+        "personaje": "La sirvienta",
+        "descripcion": "Mujer que trabaja en la casa de Alicia y Jordán.",
+        "tipo": "secundario"
+    },
+    {
+        "personaje": "Berta Ferraz",
+        "descripcion": "La mujer de Mazzini, madre de cuatro hijos y una hija.",
+        "tipo": "otro"
+    },
+    {
+        "personaje": "Mazzini",
+        "descripcion": "Es el marido de Berta y el padre de cuatro hijos y una hija.",
+        "tipo": "otro"
+    },
+    {
+        "personaje": "Gabriel Benincasa",
+        "descripcion": "Contador público que decide hacer una excursión al monte antes de su casamiento.",
+        "tipo": "otro"
+    },
+    {
+        "personaje": "Paulino",
+        "descripcion": "El marido de Dorotea, que es mordido por una yararacusú.",
+        "tipo": "otro"
+    },
+    {
+        "personaje": "Flamencos",
+        "descripcion": "Animales que buscan un disfraz para una fiesta.",
+        "tipo": "otro"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "Tipo": "Concepto",
+        "Texto": "Exposición",
+        "Valor": "1"
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "Conflicto",
+        "Valor": "2"
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "Desarrollo",
+        "Valor": "3"
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "Clímax",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Concepto",
+        "Texto": "Desenlace",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Es el problema o situación que pone en movimiento la historia y genera interés en el lector.",
+        "Valor": "2"
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Es la resolución del conflicto, el momento en el que se cierra la historia.",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Es el inicio de la historia, donde se presentan los personajes principales, el espacio donde ocurre la acción, el tono general del relato y los hechos que funcionan como punto de partida. Es la base que permite al lector comprender lo que viene después.",
+        "Valor": "1"
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Es el punto de mayor intensidad de la historia. Es el momento crítico que determina cuál será el desenlace.",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Descripcion",
+        "Texto": "Se exploran las consecuencias del conflicto, se intensifica la tensión y se revelan más detalles.",
+        "Valor": "3"
+    }
+]

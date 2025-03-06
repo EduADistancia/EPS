@@ -55,10 +55,18 @@ tr.orden > td{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+    #orden td, #datos td {
+        height: 8rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
+    #orden td, #datos td {
+        height: 6rem;
+        font-size: large;
+    }
+    
     #scrollH {
         justify-content: center;
         overflow-x: hidden;
@@ -67,4 +75,7 @@ tr.orden > td{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #orden td, #datos td {
+        height: 5rem;
+    }
 }
