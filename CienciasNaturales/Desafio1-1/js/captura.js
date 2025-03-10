@@ -3,11 +3,10 @@
 async function descargar(){
     let descargar = document.getElementById('descarga');
     descargar.addEventListener('click', function() {
-            descargar.classList.add('oculto');
+            document.querySelectorAll('.botonera').forEach(b => b.classList.add('oculto'));
             document.querySelector('#indicaciones').classList.add('oculto');
             html2canvas(document.getElementById('captura'))
             .then(function(canvas) {
-                console.log(canvas)
                 // Convert the canvas to a data URL
                 const dataURL = canvas.toDataURL('image/png');
                 
@@ -24,6 +23,7 @@ async function descargar(){
                 link.click();
                 descargar.classList.remove('oculto');
                 document.querySelector('#indicaciones').classList.remove('oculto');
+                document.querySelectorAll('.botonera').forEach(b => b.classList.add('oculto'));
         });
     });
 }
