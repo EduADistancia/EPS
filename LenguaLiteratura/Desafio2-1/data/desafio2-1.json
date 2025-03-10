@@ -1,0 +1,43 @@
+{
+    "personajes": [
+        {
+            "nombre": "Alicia",
+            "imagen": "./img/personajes/novia.png",
+            "valor": "alicia"
+        },
+        {
+            "nombre": "Jordán",
+            "imagen": "./img/personajes/novio.png",
+            "valor": "jordan"
+        },
+        {
+            "nombre": "El médico",
+            "imagen": "./img/personajes/doctor.png",
+            "valor": "medico"
+        },
+        {
+            "nombre": "Sirvienta",
+            "imagen": "./img/personajes/sirvienta.png",
+            "valor": "sirvienta"
+        }
+    ],
+    "motivaciones": [
+        {
+            "texto": "Buscar amor y ternura en su matrimonio.",
+            "valor": "alicia"
+        },
+        {
+            "texto": "Proteger a su esposa.",
+            "valor": "jordan"
+        },
+        {
+            "texto": "Encontrar la causa de la enfermedad de Alicia.",
+            "valor": "medico"
+        },
+        {
+            "texto": "Mantener la casa limpia y ordenada y atender las necesidades de la familia.",
+            "valor": "sirvienta"
+        }
+    ]
+}
+

@@ -15,3 +15,4 @@
 - [Desafío 1 - Ordenar los sucesos](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio1)
 - [Desafío 1.1 - Unir términos y definiciones (sin retroalimentación)](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio1-1)
 - [Desafío 2 - Cuestionario Personajes](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio2)
+- [Desafío 2.1 - Personajes y Motivaciones (Drag and drop)](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio2-1)
