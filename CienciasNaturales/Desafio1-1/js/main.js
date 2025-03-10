@@ -30,7 +30,10 @@ window.addEventListener("DOMContentLoaded", function () {
         descargar();
         let cerrar = document.querySelector('#cerrar');
         cerrar.classList.remove('oculto');
-        cerrar.addEventListener('click', window.close());
+        cerrar.addEventListener('click', e => {
+            e.preventDefault();
+            window.close();
+        });
     });
     
 });
