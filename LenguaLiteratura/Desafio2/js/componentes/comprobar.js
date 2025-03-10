@@ -34,7 +34,7 @@ async function comprobar() {
             let volver = document.querySelector('#cerrar');
             volver.classList.remove('oculto');
             volver.addEventListener('click', ev => {
-                window.history.back();
+                window.close();
                 ev.preventDefault();
             });
         } else {

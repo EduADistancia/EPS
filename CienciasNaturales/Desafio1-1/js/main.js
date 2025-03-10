@@ -27,6 +27,9 @@ window.addEventListener("DOMContentLoaded", function () {
         botonVolver.classList.remove('oculto');
         volver(botonVolver);
         document.querySelector('#descarga').classList.remove('oculto');
+        let cerrar = document.querySelector('#cerrar');
+        cerrar.classList.remove('oculto');
+        cerrar.addEventListener('click', window.close());
         descargar();
     });
 });
@@ -36,7 +39,7 @@ function volver(boton) {
     boton.addEventListener('click', function () {
         cambiarPagina(sitio.inicio);
         document.querySelector('#descarga').classList.add('oculto');
-        document.querySelector('#continuar').classList.remove('oculto');
+        document.querySelector('#cerrar').classList.remove('oculto');
         boton.classList.add('oculto');
     }); 
 }

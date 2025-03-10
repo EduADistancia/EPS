@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", async function () {
         let botonCerrar = document.querySelector('#cerrar');
         botonCerrar.classList.remove('oculto');
         botonCerrar.addEventListener('click', ()=>{
-            window.history.back();
+            window.close();
         });
     });
 });
