@@ -1,0 +1,100 @@
+/* Acceso modal */
+.infoBotonImg {
+    font-size: large;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.infoBotonImg:hover {
+    color: var(--color5);
+    background-color: var(--color2);
+    border: 5px solid var(--color1);
+}
+
+/* Modales general*/
+dialog {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    z-index: 30;
+}
+
+dialog p {
+    line-height: 1.5rem;
+}
+
+dialog:open {
+    margin: 1rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+div.cerrarModal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.cerrarModal > button {
+    width: 2rem;
+    aspect-ratio: 1;
+    font-size: x-large;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--color5);
+}
+
+div.cerrarModal > button:hover {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+div.cerrarModal + h3, div.cerrarModal + h4 {
+    font-size: 1.5rem;
+}
+
+div.cerrarModal + * {
+    margin: 1rem 0;
+}
+
+/* Modales: ubicación, tamaño, colores */
+
+dialog {
+    color: var(--color4);
+    background-color: var(--color1claro);
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    dialog:open {
+        top: 40%;
+        margin: 1rem 1.5rem;
+    }
+
+    dialog:open * {
+        font-size: medium;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    dialog:open {
+        top: 40%;
+        height: 25%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    dialog:open {
+        top: 40%;
+        width: 60%;
+        height: auto;
+        margin: 0 15rem;
+    }
+}

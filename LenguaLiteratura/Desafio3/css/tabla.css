@@ -1,0 +1,87 @@
+#scrollH {
+    display: flex;
+    margin-top: 2rem;
+    overflow-x: scroll;
+}
+
+table {
+    text-align: center;
+    border-spacing: 2px 10px;
+}
+
+#orden tr >  td {
+    background-color: var(--color2);
+    color: var(--color5);
+}
+
+table#orden {
+    min-width: 6rem;
+}
+
+table#momentos, table#espacios {
+    min-width: 12rem;
+}
+
+td, th {
+    height: 140px;
+    padding: 0.5rem 0.5rem;    
+}
+
+th {
+    background-color: var(--color2);
+    color: var(--color5);
+}
+
+table > tr {
+    background-color: var(--color3claro);
+    cursor: move;
+}
+
+tr.orden > td{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dragging {
+    color: var(--color5);
+    background-color: var(--color2); /* Azul claro */
+    opacity: 0.8;
+    transform: scale(1.02); /* Agranda ligeramente la fila */
+    transition: background-color 0.3s;
+}
+
+td button {
+    padding: 0.25rem;
+    background-color: var(--color2);
+    border: none;
+    border-radius: 12px;
+}
+
+td button:hover {
+    background-color: var(--color1);
+}
+
+.imgCelda {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #scrollH {
+        justify-content: center;
+        overflow-x: hidden;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}

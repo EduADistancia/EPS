@@ -1,0 +1,52 @@
+{
+    "momentos": [
+        {
+            "momento": "Casamiento",
+            "valor": "m1"
+        },
+        {
+            "momento": "Síntomas",
+            "valor": "m2"
+        },
+        {
+            "momento": "Protección",
+            "valor": "m3"
+        },
+        {
+            "momento": "Enfermedad",
+            "valor": "m4"
+        },
+        {
+            "momento": "Muerte",
+            "valor": "m5"
+        }
+    ],
+    "espacios": [
+        {
+            "imagen": "./img/momentos/casa.webp",
+            "descripcion": "La casa en que vivían influía no poco en sus estremecimientos. La blancura del patio silencioso —frisos, columnas y estatuas de mármol— producía una otoñal impresión de palacio encantado. Dentro, el brillo glacial del estuco, sin el más leve rasguño en las altas paredes, afirmaba aquella sensación de desapacible frío. Al cruzar de una pieza a otra, los pasos hallaban eco en toda la casa, como si un largo abandono hubiera sensibilizado su resonancia.",
+            "valor": "m1"
+        },
+        
+        {
+            "imagen": "./img/momentos/jardin.webp ",
+            "descripcion": "No es raro que adelgazara. Tuvo un ligero ataque de influenza que se arrastró insidiosamente días y días; Alicia no se reponía nunca. Al fin, una tarde pudo salir al jardín apoyada en el brazo de él.",
+            "valor": "m2"
+        },
+        {
+            "imagen": "./img/momentos/sala.webp",
+            "descripcion": "Jordán vivía casi en la sala, también con toda la luz encendida. Paseábase sin cesar de un extremo a otro, con incansable obstinación. La alfombra ahogaba sus pasos.",
+            "valor": "m3"
+        },
+        {
+            "imagen": "./img/momentos/dormitorio.webp",
+            "descripcion": "La joven, con los ojos desmesuradamente abiertos, no hacía sino mirar la alfombra a uno y otro lado del respaldo de la cama. (...) Entre sus alucinaciones más porfiadas, hubo un antropoide apoyado en la alfombra sobre los dedos, que tenía fijos en ella los ojos.",
+            "valor": "m4"
+        },
+        {
+            "imagen": "./img/momentos/almohadon.webp",
+            "descripcion": "Salieron con él, y sobre la mesa del comedor, Jordán cortó funda y envoltura de un tajo. Las plumas superiores volaron, y la sirvienta dió un grito de horror con toda la boca abierta, llevándose las manos crispadas a los bandós:--sobre el fondo, entre las plumas, moviendo lentamente las patas velludas, había un animal monstruoso, una bola viviente y viscosa.",
+            "valor": "m5"
+        }
+    ]
+}
