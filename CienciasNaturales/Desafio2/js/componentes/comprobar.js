@@ -24,7 +24,7 @@ async function comprobar() {
         let completados = document.querySelectorAll('.drop-area');
         completados.forEach(c => {
             c.childNodes.forEach(frase => {
-                if(frase.getAttribute('name') !== c.id) {
+                if(frase.getAttribute('name').replace(" ", "") !== c.id) {
                     resultado = false;
                 }
             });
