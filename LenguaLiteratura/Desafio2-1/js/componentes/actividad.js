@@ -21,6 +21,7 @@ async function crearActividad(datos) {
         
         let imgPersonaje = document.createElement('img');
         imgPersonaje.src = dato.imagen;
+        imgPersonaje.alt = "Personaje";
         imgPersonaje.classList.add('imgPersonaje', 'contrasteCero');
 
         let nombre = document.createElement('p');

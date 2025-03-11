@@ -100,10 +100,12 @@ function crearTablas(datos) {
         let buttonImg = document.createElement('button');
         buttonImg.className = 'pistaEspacio';
         buttonImg.value = e.valor;
+        buttonImg.title = "Ver pista"
 
         let imgTd = document.createElement('img');
         imgTd.classList.add('imgCelda');
         imgTd.src = e.imagen;
+        imgTd.alt = e.alt;
         
         buttonImg.append(imgTd)
         tdOrden.append(buttonImg);

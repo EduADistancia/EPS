@@ -19,11 +19,13 @@ function crearActividad(datos){
 
         let botonEstacion = document.createElement('button');
         botonEstacion.classList.add('opcion');
+        botonEstacion.title = "Presionar para seleccionar"
         botonEstacion.value = dato.valor;
 
         let imgEstacion = document.createElement('img');
         imgEstacion.classList.add('estacion');
         imgEstacion.src = dato.imagen;
+        imgEstacion.alt = dato.estacion
 
         botonEstacion.append(imgEstacion);
         contenedorOpcion.append(botonEstacion);
