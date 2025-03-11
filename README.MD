@@ -17,3 +17,4 @@
 - [Desafío 2 - Cuestionario Personajes](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio2)
 - [Desafío 2.1 - Personajes y Motivaciones (Drag and drop)](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio2-1)
 - [Desafío 3 - Ordenar momentos y espacios](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio3)
+- [Desafío 3.1 - Atmósfera (opción múltiple)](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio3-1)
