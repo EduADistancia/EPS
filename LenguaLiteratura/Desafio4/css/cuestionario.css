@@ -60,7 +60,7 @@ input {
 
 .seleccionado {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #ffcc008a;
     padding: 0;
     border: 1px solid var(--color2);
