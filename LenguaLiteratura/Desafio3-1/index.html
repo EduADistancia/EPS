@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Area Educación a Distacia - Min. de Educación GCABA">
+    <meta name="description" content="Material didáctico adicional.">
+    <link rel="shortcut icon" href="./ico/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/cuestionario.css">
+    <title>EPS - Lengua y Literatura</title>
+</head>
+<body id="captura">
+    <div id="contenedor">
+        
+        <!-- Membrete superior -->
+        <div id="membsup">
+            <img class="membrete" src="./img/membreteHeader.jpg" alt="Membrete Ministerio de Educación GCABA">
+        </div>
+
+        <!-- Contenido del documento -->
+        <div id="contenido">
+            <header>
+                <div class="divHeader">
+                    <h1>Lengua y Literatura</h1>
+                    <img src="./img/Guardián_de_ las_historias.webp" alt="Guardián de las historias." class="imgCabecera">
+                </div>
+            </header>
+
+            <main>
+                <section id="indicaciones">
+                    <div class="cabSection">
+                        <i><img src="./img/pregunta.png" alt="Icono pregunta"></i>
+                        <h2>Opción múltiple</h2>
+                    </div>
+                    <h3>Atmósfera</h3>
+                    <p>¡Esta obra y su autor están cada vez más cerca de ser salvados!</p>
+                    <p>La atmósfera del cuento se completará con la estación del año en la que transcurre, ¿recuerdas cuál es?</p>
+                    <p>Presiona la opción que consideres correcta y luego «Comprobar».</p>
+                </section>
+                <section>
+                    
+                    <!-- Contenido dinámico -->
+                    <div id="contenidoActividad"></div>
+
+                    <div class="mensaje">
+                        <p id="advertencia" class="oculto">¡Por favor seleccionar una opción!</p>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div id="botonera">
+                    <button id="comprobar" class="boton">Comprobar</button>
+                    <button id="reintentar" class="boton oculto">Reintentar</button>
+                    <button id="cerrar" class="boton oculto">Cerrar</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

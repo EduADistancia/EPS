@@ -1,0 +1,22 @@
+[
+    {
+        "estacion": "Verano",
+        "imagen": "./img/estaciones/verano.jpg",
+        "valor": 0
+    },
+    {
+        "estacion": "Otoño",
+        "imagen": "./img/estaciones/otono.jpg",
+        "valor": 1
+    },
+    {
+        "estacion": "Invierno",
+        "imagen": "./img/estaciones/invierno.jpg",
+        "valor": 0
+    },
+    {
+        "estacion": "Primavera",
+        "imagen": "./img/estaciones/primavera.jpg",
+        "valor": 0
+    }
+]
