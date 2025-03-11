@@ -1,0 +1,41 @@
+[
+    {
+        "descripcion": "PRIMER FRAGMENTO",
+        "opciones" : [
+            {
+                "opcion": "Durante tres meses ―se habían casado en abril― vivieron una dicha especial. Sin duda hubiera ella deseado menos severidad en ese rígido cielo de amor.",
+                "correcto": 1
+            },
+            {
+                "opcion": "Durante tres meses ―nos habíamos casado en abril― vivimos una dicha especial. Sin duda yo hubiera deseado menos severidad en ese rígido cielo de amor.",
+                "correcto": 0
+            }
+        ]
+    },
+    {
+        "descripcion": "SEGUNDO FRAGMENTO",
+        "opciones" : [
+            {
+                "opcion": "Tuvo un ligero ataque de influenza que se arrastró insidiosamente días y días; Alicia no se reponía nunca.",
+                "correcto": 1
+            },
+            {
+                "opcion": "Tuviste un ligero ataque de influenza que se arrastró insidiosamente días y días; tú no te reponías nunca.",
+                "correcto": 0
+            }
+        ]
+    },
+    {
+        "descripcion": "TERCER FRAGMENTO",
+        "opciones" : [
+            {
+                "opcion": "Paseábase sin cesar de un extremo a otro, con incansable obstinación. La alfombra ahogaba sus pasos. A ratos entraba en el dormitorio y proseguía su mudo vaivén a lo largo de la cama.",
+                "correcto": 1
+            },
+            {
+                "opcion": "Me paseaba sin cesar de un extremo a otro, con incansable obstinación. La alfombra ahogaba mis pasos. A ratos entraba en el dormitorio y proseguía mi mudo vaivén a lo largo de la cama.",
+                "correcto": 0
+            }
+        ]
+    }
+]

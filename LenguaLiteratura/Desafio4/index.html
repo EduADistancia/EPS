@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Area Educación a Distacia - Min. de Educación GCABA">
+    <meta name="description" content="Material didáctico adicional.">
+    <link rel="shortcut icon" href="./ico/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/cuestionario.css">
+    <title>EPS - Lengua y Literatura</title>
+</head>
+<body id="captura">
+    <div id="contenedor">
+        
+        <!-- Membrete superior -->
+        <div id="membsup">
+            <img class="membrete" src="./img/membreteHeader.jpg" alt="Membrete Ministerio de Educación GCABA">
+        </div>
+
+        <!-- Contenido del documento -->
+        <div id="contenido">
+            <header>
+                <div class="divHeader">
+                    <h1>Lengua y Literatura</h1>
+                    <img src="./img/Guardián_de_ las_historias.webp" alt="Guardián de las historias." class="imgCabecera">
+                </div>
+            </header>
+
+            <!-- Contenido dinámico (SPA) -->
+            <main id="contenidoSPA"></main>
+
+            <footer>
+                <div id="botonera">
+                    <button id="siguiente" class="boton">Siguiente</button>
+                    <button id="comprobar" class="boton oculto">Comprobar</button>
+                    <button id="cerrar" class="boton oculto">Cerrar</button>
+                    <button id="anterior" class="boton oculto"><< Anterior</button>
+                    <button id="reintentar" class="boton oculto">Reintentar</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
