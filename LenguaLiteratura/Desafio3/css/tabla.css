@@ -51,14 +51,25 @@ tr.orden > td{
     transition: background-color 0.3s;
 }
 
+tr.espacios td {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: var(--color2); */
+}
+
 td button {
+    font-size: 2rem;
     padding: 0.25rem;
-    background-color: var(--color2);
+    color: var(--color2);
+    background-color: var(--color3claro);
     border: none;
-    border-radius: 12px;
+    width: 3rem;
+    border-radius: 50%;
 }
 
 td button:hover {
+    color: var(--color5);
     background-color: var(--color1);
 }
 

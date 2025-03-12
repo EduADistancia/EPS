@@ -1,23 +1,23 @@
 {
     "momentos": [
         {
-            "momento": "Casamiento",
+            "momento": "Alicia y Jordán se casan",
             "valor": "m1"
         },
         {
-            "momento": "Síntomas",
+            "momento": "Primeros síntomas de la enfermedad de Alicia",
             "valor": "m2"
         },
         {
-            "momento": "Protección",
+            "momento": "Jordán, desconcertado, busca proteger a su mujer",
             "valor": "m3"
         },
         {
-            "momento": "Enfermedad",
+            "momento": "Avance de la enfermedad y alucinaciones",
             "valor": "m4"
         },
         {
-            "momento": "Muerte",
+            "momento": "Muerte y revelación final",
             "valor": "m5"
         }
     ],

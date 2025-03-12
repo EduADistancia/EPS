@@ -28,7 +28,7 @@ dialog:open {
     margin: 1rem 3.5rem;
     display: flex;
     flex-direction: column;
-    height: auto;
+    /* height: auto; */
 }
 
 div.cerrarModal {

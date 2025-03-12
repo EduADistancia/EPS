@@ -167,7 +167,7 @@ ul.detalles > li > details {
         font-size: larger;
     }
 
-    ul {
+    ul.detalles {
         grid-template-columns: 100%;
     }
 }

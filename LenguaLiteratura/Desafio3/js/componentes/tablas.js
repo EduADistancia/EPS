@@ -97,18 +97,25 @@ function crearTablas(datos) {
         let trOrden = document.createElement('tr');
         let tdOrden = document.createElement('td');
         
-        let buttonImg = document.createElement('button');
-        buttonImg.className = 'pistaEspacio';
-        buttonImg.value = e.valor;
-        buttonImg.title = "Ver pista"
+        // let buttonImg = document.createElement('button');
+        // buttonImg.className = 'pistaEspacio';
+        // buttonImg.value = e.valor;
+        // buttonImg.title = "Ver pista"
+
+        let botonDescripcion = document.createElement('button');
+        botonDescripcion.className = 'pistaEspacio';
+        botonDescripcion.textContent = "🛈";
+        botonDescripcion.title = "Ver pista";
+        botonDescripcion.value = e.valor;
 
         let imgTd = document.createElement('img');
         imgTd.classList.add('imgCelda');
         imgTd.src = e.imagen;
         imgTd.alt = e.alt;
         
-        buttonImg.append(imgTd)
-        tdOrden.append(buttonImg);
+        // buttonImg.append(imgTd)
+        // tdOrden.append(buttonImg);
+        tdOrden.append(imgTd, botonDescripcion);
         trOrden.classList.add('espacios');
         trOrden.draggable = true;
         trOrden.setAttribute('name', e.valor);

@@ -14,7 +14,7 @@ function crearBotoneraModal(elemento) {
 // Cierre de modal
 function crearBotonCerrarModal(idModal) {
     let cerrarDialog = document.createElement('button');
-    cerrarDialog.innerText = "🗙";
+    cerrarDialog.innerText = "x";
     cerrarDialog.title = "Cerrar";
     cerrarDialog.id = `cerrar${idModal}`;
     let divCerrar =  document.createElement('div');
