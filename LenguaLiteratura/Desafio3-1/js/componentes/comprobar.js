@@ -29,7 +29,7 @@ async function comprobar(){
             contenidoActividad.innerHTML = retro;
             let cerrar = document.querySelector('#cerrar');
             cerrar.classList.remove('oculto');
-            cerrar.addEventListener('click', window.close());
+            cerrar.addEventListener('click', () => {window.close()});
 
         } else {
             opcionSeleccionada.append(insertarIco("./img/incorrecto.png"));
