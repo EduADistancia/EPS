@@ -2,6 +2,7 @@
 ### Materias incluidas:
 - Ciencias Naturales
 - Lengua y Literatura
+- Ecosistema de los deportes electrónicos e industria de los videojuegos
 
 ---
 ### Links a despliegues:
@@ -19,3 +20,6 @@
 - [Desafío 3 - Ordenar momentos y espacios](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio3)
 - [Desafío 3.1 - Atmósfera (opción múltiple)](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio3-1)
 - [Desafío 4 - Restaurar voz narrativa (opción múltiple)](https://eduadistancia.github.io/EPS/LenguaLiteratura/Desafio4)
+
+#### Ecosistema de los deportes electrónicos e industria de los videojuegos
+- [Sala 1 Desafío A - Unir hitos históricos con consolas][https://eduadistancia.github.io/EPS/DeportesElectronicos/S1DA]

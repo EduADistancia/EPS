@@ -1,0 +1,254 @@
+.visible {
+    display: inherit;
+}
+
+.oculto {
+    display: none;
+}
+
+.tarjeta {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color3claro);
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    position: relative;
+}
+
+p.marco, div.marco > p, div.marco > details {
+    font-size: larger;
+    margin: 1rem 0.5rem;
+    padding: 0.75rem ;
+    background-color: var(--color2);
+    color: var(--color5);
+    border-radius: 10px;
+}
+
+.imgEstado {
+    width: 2rem;
+    position: absolute;
+    bottom: 10px;
+}
+
+label + div {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    justify-items: center;
+}
+
+.marcoOK {
+    border: 5px solid greenyellow;
+}
+
+.marcoNoOk {
+    border: 5px solid yellow;
+}
+
+li {
+    padding: 0.25rem 0.25rem;
+    margin: 0.5rem 0;
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+    margin: 1rem 0.5rem;
+}
+
+input {
+    margin: 0 0.5rem;
+}
+
+.seleccionado {
+    background-color: #ffcc008a;
+    
+    border: 1px solid var(--color2);
+    border-radius: 5px;
+}
+
+/* Drag 'n' Drop */
+.drop-highlight {
+    color: #153244;
+    background-color: #ffcc00;
+}
+
+.oculto {
+    display: none;
+}
+
+.drop-mov {
+    background-color: #8de2d6;
+    border-radius: 5px;
+}
+
+div.tarjeta > .dropped {
+    color: var(--color5);
+    background-color: var(--color2);
+    border-radius: 5px;
+    margin: 0.5rem 0 3rem;
+    padding: 0.25rem;
+    font-size: smaller;
+    height: 5rem;
+    width: auto;
+}
+
+/* Exclusivos Desafio */
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.tarjeta > p.nombreTarjeta {
+    font-size: 1.5rem;
+}
+
+.contrasteCero {
+    filter: contrast(0.5);
+}
+
+.imgPersonaje {
+    width: 10rem;
+    margin: 1rem 0;
+}
+
+.agregarImg {
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px dotted var(--color5);
+    border-radius: 0.5rem;
+    width: 6rem;
+    height: 3rem;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+summary {
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Retroalimentación */
+
+#retroalimentacion dialog:open {
+    top: 30%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 20px;
+}
+
+dialog .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}
+
+#videojuegos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videojuegos img {
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--color2);
+}
+
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #contenidoActividad {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #videojuegos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #videojuegos img {
+        margin: 0.5rem;
+        height: 8rem;
+        width: auto;
+        border-radius: 5px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: left;
+    }
+
+    #descripciones {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #videojuegos img {
+        height: 5rem;
+        width: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ul {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20;
+        text-align: center;
+    }
+
+    .tarjeta {
+        width: 20%;
+    }
+
+    #descripciones {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #videojuegos img {
+        height: 8rem;
+        width: auto;
+    }
+}

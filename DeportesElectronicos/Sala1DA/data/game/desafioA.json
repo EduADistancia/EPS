@@ -1,0 +1,56 @@
+{
+    "definiciones": [
+        {
+            "lanzamiento": "1958",
+            "nombre": "Tennis for two",
+            "descripcion": "Primer videojuego interactivo, creado por William Higinbotham como una demostración científica.",
+            "valor": "1"
+        },
+        {
+            "lanzamiento": "1962",
+            "nombre": "TSpacewerw",
+            "descripcion": "Uno de los primeros videojuegos de computadora, creado por estudiantes del MIT.",
+            "valor": "2"
+        },
+        {
+            "lanzamiento": "1971",
+            "nombre": "Computer Space",
+            "descripcion": "Primer videojuego arcade comercial, diseñado por Nolan Bushnell.",
+            "valor": "3"
+        },
+        {
+            "lanzamiento": "1972",
+            "nombre": "Pong",
+            "descripcion": "Primer éxito comercial masivo de los videojuegos, creado por Atari.",
+            "valor": "4"
+        },
+        {
+            "lanzamiento": "1972",
+            "nombre": "Magnavox Odyssey",
+            "descripcion": "Primera consola de videojuegos doméstica, desarrollada por Ralph Baer.",
+            "valor": "5"
+        }
+    ],
+    "imagenes": [
+        {
+            "source": "./img/game/TFT.jpeg",
+            "valor": "1"
+        },
+        {
+            "source": "./img/game/TS.jpeg",
+            "valor": "2"
+        },
+        {
+            "source": "./img/game/CS.jpeg",
+            "valor": "3"
+        },
+        {
+            "source": "./img/game/PA.jpeg",
+            "valor": "4"
+        },
+        {
+            "source": "./img/game/MO.jpeg",
+            "valor": "5"
+        }
+    ]
+}
