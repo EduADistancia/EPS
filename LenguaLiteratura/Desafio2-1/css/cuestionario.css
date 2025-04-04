@@ -109,7 +109,7 @@ div.tarjeta > .dropped {
 }
 
 .contrasteCero {
-    filter: contrast(0);
+    filter: contrast(0.1);
 }
 
 .imgPersonaje {
