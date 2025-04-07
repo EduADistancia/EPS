@@ -1,3 +1,4 @@
+import { mostrarModal } from "./modales.js";
 // Comprobación
 
 async function comprobar(){
@@ -22,14 +23,23 @@ async function comprobar(){
     }
 
     if (nodeOrden.length === correctas) {
-        let reintentar = document.querySelector('#reintentar');
-        reintentar.classList.add('oculto');
-
-        let botonCerrar = document.querySelector('#cerrar');
+        mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroPos.html");
+        // Cerrar
+        let botonCerrar = document.querySelector('#cerrarApp');
         botonCerrar.classList.remove('oculto');
         botonCerrar.addEventListener('click', ()=>{
             window.close();
         });
+        
+    } else {
+        mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroNoPos.html");
+        // Reintentar
+        let botonReitentar = document.querySelector('#reintentar');
+        botonReitentar.classList.remove('oculto');
+        botonReitentar.addEventListener('click', ()=>{
+            window.location.reload();
+        });
+
     }
 }
 

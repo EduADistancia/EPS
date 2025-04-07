@@ -75,17 +75,27 @@ div.opcion {
 
 /* Retroalimentación */
 
-.retroalimentacion {
+#retroalimentacion dialog:open {
+    top: 20%;
+    min-width: 22rem;
+    justify-self: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 2rem;
     background-color: var(--color3);
+    border: none;
     border-radius: 20px;
 }
 
-.retroalimentacion > * {
-    margin-bottom: 1rem;
+dialog .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+dialog .botonera>.boton {
+    width: 10rem;
 }
 
 .textoRetro {
@@ -99,7 +109,6 @@ div.opcion {
 }
 
 .imgRetro{
-    margin-left: 2rem;
     display: flex;
     justify-content: center;
 }

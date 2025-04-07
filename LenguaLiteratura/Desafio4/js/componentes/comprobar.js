@@ -1,4 +1,5 @@
-import { cargar } from "./cargar.js";
+import { cargar } from "./carga.js";
+import { mostrarModal } from "./modales.js";
 
 // Ícono de retro
 function insertarIco(img){
@@ -28,16 +29,15 @@ async function comprobar(){
         document.querySelector('#advertencia').classList.add('oculto');
 
         if (rtasCorrectas === totalPreguntas) {
-            let contenidoActividad = document.querySelector('#contenidoActividad');
-            let retro = await cargar("./site/retro.html", "template");
-            contenidoActividad.innerHTML = retro;
-
-            
             document.querySelector('#indicaciones').classList.add('oculto');
             document.querySelector('#comprobar').classList.add('oculto');
-            document.querySelector('#cerrar').classList.remove('oculto');
-
-            scrollTo({top: 0});
+            mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroPos.html");
+            // Cerrar
+            let botonCerrar = document.querySelector('#cerrarApp');
+            botonCerrar.classList.remove('oculto');
+            botonCerrar.addEventListener('click', ()=>{
+                window.close();
+            });
 
         } else {
             selecciones.forEach(s => {
@@ -50,10 +50,18 @@ async function comprobar(){
             document.querySelector('#comprobar').classList.add('oculto');
             document.querySelector('#reintentar').classList.remove('oculto');
             document.querySelector('#anterior').classList.remove('oculto');
+            mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroNoPos.html");
+            // Reintentar
+            let botonReitentar = document.querySelector('#reintentar');
+            botonReitentar.classList.remove('oculto');
+            botonReitentar.addEventListener('click', ()=>{
+                window.location.reload();
+            });
         }
 
     } else {
         document.querySelector('#advertencia').classList.remove('oculto');
+        document.querySelector('#comprobar').classList.remove('oculto');
     }
 }
 

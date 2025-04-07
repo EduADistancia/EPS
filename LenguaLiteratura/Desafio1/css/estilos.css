@@ -83,6 +83,7 @@ i > img {
     padding: 5%;
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .boton {

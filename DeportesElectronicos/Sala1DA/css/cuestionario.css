@@ -156,6 +156,10 @@ dialog .botonera {
     width: 100%;
 }
 
+dialog .botonera>.boton {
+    width: 10rem;
+}
+
 .textoRetro {
     color: var(--color2);
 }

@@ -1,5 +1,5 @@
 import { comprobar } from "./componentes/comprobar.js";
-import { cargar } from "./componentes/cargar.js";
+import { cargar } from "./componentes/carga.js";
 import { crearActividad } from "./componentes/actividad.js";
 import { cambiarEstiloSeleccion } from "./componentes/checkItems.js";
 
@@ -36,11 +36,9 @@ async function activarActividad() {
     let comprobacion = document.querySelector('#comprobar');
     comprobacion.classList.remove('oculto');
     comprobacion.addEventListener('click', () => {
+        comprobacion.classList.add('oculto');
         comprobar();
     });
-    
-    let cerrar = document.querySelector('#cerrar');
-    cerrar.addEventListener('click', () => {window.close()});
 }
 
 // Activadores
@@ -51,11 +49,3 @@ activadores.forEach(act => act.addEventListener('click', async () => {
     
     await activarActividad();
 }));
-
-// Recarga total
-let recarga = document.querySelector('#anterior');
-recarga.addEventListener('click', () => {window.location.reload()});
-
-
-
-

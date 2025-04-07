@@ -1,4 +1,4 @@
-import { cargarPagina } from "./cargar.js";
+import { mostrarModal } from "./modales.js";
 
 async function comprobar(){
     let nodeOrden = document.querySelectorAll('.orden');
@@ -22,18 +22,23 @@ async function comprobar(){
     }
 
     if (nodeOrden.length === correctas) {
-        let reintentar = document.querySelector('#reintentar');
-        reintentar.classList.add('oculto');
-
-        let contenedorTabla = document.querySelector('#scrollH');
-        let retro = await cargarPagina("./site/retro.html");
-        contenedorTabla.innerHTML = retro;
-
-        let botonCerrar = document.querySelector('#cerrar');
+        mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroPos.html");
+        // Cerrar
+        let botonCerrar = document.querySelector('#cerrarApp');
         botonCerrar.classList.remove('oculto');
         botonCerrar.addEventListener('click', ()=>{
             window.close();
         });
+        
+    } else {
+        mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroNoPos.html");
+        // Reintentar
+        let botonReitentar = document.querySelector('#reintentar');
+        botonReitentar.classList.remove('oculto');
+        botonReitentar.addEventListener('click', ()=>{
+            window.location.reload();
+        });
+
     }
 }
 
