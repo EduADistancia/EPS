@@ -1,0 +1,190 @@
+.tarjeta {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color3);
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+p.marco, div.marco > p, div.marco > details {
+    font-size: larger;
+    margin: 1rem 0.5rem;
+    padding: 0.75rem ;
+    background-color: var(--color2);
+    color: var(--color5);
+    border-radius: 10px;
+}
+
+.imgEstado {
+    width: 2rem;
+}
+
+
+/* Exclusivos Desafio */
+.tarjeta {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.imgPersonaje {
+    width: 10rem;
+    margin: 1rem 0;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#advertencia {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color5);
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+input[type='text'] {
+    width: 115px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* Retroalimentación */
+
+#retroalimentacion dialog:open {
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 2rem;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+dialog .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+dialog .botonera>.boton {
+    width: 10rem;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}
+
+dialog:open #resultados {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-self: normal;
+}
+
+dialog:open #resultados > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #contenidoActividad {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        flex-direction: column;
+        margin: 0.5rem 0;
+    }
+
+    .contPregunta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contPregunta * {
+        margin: 0.5rem 0;
+    }
+
+    .tarjeta .boton {
+        width: 50%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .tarjeta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .contPregunta {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 35% 35% 20%;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+    
+    input {
+        margin-left: 2rem;
+    }
+
+    .rtaConfirmada {
+        padding-left: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .tarjeta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .contPregunta {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 35% 35% 20%;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+
+    input {
+        margin-left: 2rem;
+    }
+}
