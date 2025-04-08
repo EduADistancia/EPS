@@ -1,0 +1,44 @@
+[
+    {
+        "letra": "A",
+        "pista": "Maquina de videojuegos electrónicos que se popularizó en los salones recreativos durantes los años ochenta.",
+        "opciones": ["Arkanoid", "Atari", "Arcade"],
+        "check":"2"
+    },
+    {
+        "letra": "C",
+        "pista": "Estructura donde se coloca la máquina de juego, permitiendo a los  jugadores interactuar.",
+        "opciones": ["Cabina", "Consola", "Camarín"],
+        "check":"0"
+    },
+    {
+        "letra": "D",
+        "pista": "Nivel de mayor desafío que presenta un juego, y que puede variar según el título.",
+        "opciones": ["Desarrollo", "Dificultad", "Dilema"],
+        "check":"1"
+    },
+    {
+        "letra": "E",
+        "pista": "Sonidos y elementos visuales que enriquecen la experiencia del juego y atraen a los jugadores.",
+        "opciones": ["Efectos", "Estimulos", "Experiencias"],
+        "check":"0"
+    },
+    {
+        "letra": "M",
+        "pista": "Modo de juego que permita a varias personas jugar simultáneamente.",
+        "opciones": ["Multiplataforma", "Multijugador", "Multiparadigma"],
+        "check":"1"
+    },
+    {
+        "letra": "P",
+        "pista": "Juego de arcade de 1980, que se convirtió en un fenómeno cultural y de entretenimiento.",
+        "opciones": ["Plants vs. Zombies", "Prince of Persia", "PacMan"],
+        "check":"2"
+    },
+    {
+        "letra": "V",
+        "pista": "Número de oportunidades que tiene un jugador para continuar el juego.",
+        "opciones": ["Vistas", "Vestimentas", "Vidas"],
+        "check":"2"
+    }
+]

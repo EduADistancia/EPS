@@ -1,0 +1,105 @@
+#contenidoActividad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ruleta {
+    margin: 2rem;    
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color3);
+  }
+
+.letra {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    transform-origin: center center;
+}
+
+#completar {
+    position: absolute;
+    text-align: center;
+}
+
+#completar input {
+    width: 100%;
+}
+
+#completar .formRuleta{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formRuleta * {
+    margin: 0.5rem 0;
+}
+
+.formRuleta input[type="text"] {
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.letraSeleccionada {
+    width: 3rem;
+    border-radius: 50%;
+    padding: 0.8rem;
+    color: var(--color5);
+    background-color: var(--color2);
+}
+
+#completar input {
+    text-align: center;
+    width: 150px;
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .ruleta {
+        min-width: 300px;
+        min-height: 300px;
+    }
+
+    #completar {
+        width: 40%;
+        top: 630px;
+        /* left: 100px; */
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .ruleta {
+        width: 400px;
+        height: 400px;
+    }
+
+    #completar {
+        width: 28%;
+        top: 600px;
+        left: 200px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ruleta {
+        width: 600px;
+        height: 600px;
+    }
+
+    #completar {
+        width: 30%;
+        top: 800px;
+        left: 250px;
+    }
+
+
+}

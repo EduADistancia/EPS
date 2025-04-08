@@ -23,3 +23,4 @@
 
 #### Ecosistema de los deportes electrónicos e industria de los videojuegos
 - [Sala 1 Desafío A - Unir hitos históricos con consolas](https://eduadistancia.github.io/EPS/DeportesElectronicos/Sala1DA)
+- [Sala 2 Desafío A - Ruleta de palabras](https://eduadistancia.github.io/EPS/DeportesElectronicos/Sala2DA)

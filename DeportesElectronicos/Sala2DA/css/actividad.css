@@ -1,0 +1,178 @@
+.tarjeta {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color3);
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+p.marco, div.marco > p, div.marco > details {
+    font-size: larger;
+    margin: 1rem 0.5rem;
+    padding: 0.75rem ;
+    background-color: var(--color2);
+    color: var(--color5);
+    border-radius: 10px;
+}
+
+.imgEstado {
+    width: 2rem;
+    /* position: absolute; */
+    /* bottom: 10px; */
+}
+
+
+/* Exclusivos Desafio */
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.5rem;
+}
+
+.tarjeta > p.nombreTarjeta {
+    font-size: 1.5rem;
+}
+
+
+.imgPersonaje {
+    width: 10rem;
+    margin: 1rem 0;
+}
+
+
+h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#distractoresUl {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 1rem 0;
+}
+
+#advertencia {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color5);
+    align-self: center;
+    justify-self: center;
+}
+
+/* Retroalimentación */
+
+#retroalimentacion dialog:open {
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 20px;
+}
+
+dialog .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+dialog .botonera>.boton {
+    width: 10rem;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}
+
+
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #contenidoActividad {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #opciones {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #distractoresUl li {
+        margin-left: 1.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #opciones {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 30%;
+    }
+    
+    #distractoresUl {
+        flex-direction: column-reverse;
+    }
+
+    #distractoresUl li {
+        margin-left: 0rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #contenidoActividad {
+        display: grid;
+        grid-template-columns: 600px 300px;
+    }
+
+    #opciones {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 30%;
+    }
+
+    #distractoresUl {
+        flex-direction: column-reverse;
+    }
+
+    dialog:open #resultados {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-self: normal;
+    }
+
+    dialog:open #resultados > div{
+        display: flex;
+        align-items: center;
+        margin: 0 2rem;
+    }
+}
