@@ -30,7 +30,6 @@ async function comprobar(resultados) {
         let result = document.querySelector("#resultados");
 
         for (let item in resultados) {
-            console.log(item, resultados[item])
             let divResult = document.createElement('div');
             
             let pResult = document.createElement('p');

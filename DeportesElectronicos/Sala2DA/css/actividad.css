@@ -53,9 +53,17 @@ h4 {
     flex-direction: row;
     align-self: flex-start;
     margin: 1rem 0;
+    padding: 0;
+}
+
+#distractoresUl li{
+    list-style: none;
+    padding: 0;
+    margin: 0 1.5rem 0 0;
 }
 
 #advertencia {
+    width: 80%;
     border: none;
     border-radius: 10px;
     background-color: var(--color5);
@@ -66,16 +74,18 @@ h4 {
 /* Retroalimentación */
 
 #retroalimentacion dialog:open {
-    width: 50%;
+    width: 80%;
     align-self: center;
     justify-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     padding: 2rem;
     background-color: var(--color3);
     border: none;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 dialog .botonera {
@@ -109,7 +119,17 @@ dialog .botonera>.boton {
     aspect-ratio: 1;
 }
 
+dialog:open #resultados {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-self: normal;
+}
 
+dialog:open #resultados > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* PUNTOS DE CORTE */
 
@@ -125,8 +145,9 @@ dialog .botonera>.boton {
         flex-direction: column-reverse;
     }
 
-    #distractoresUl li {
-        margin-left: 1.5rem;
+    #distractoresUl {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -164,15 +185,5 @@ dialog .botonera>.boton {
         flex-direction: column-reverse;
     }
 
-    dialog:open #resultados {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        align-self: normal;
-    }
 
-    dialog:open #resultados > div{
-        display: flex;
-        align-items: center;
-        margin: 0 2rem;
-    }
 }
