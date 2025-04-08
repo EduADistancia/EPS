@@ -2,21 +2,21 @@
     {
         "id": "1",
         "txtAdivinanza": "Profesión de Mario",
-        "txtPista": "Destapa cañerías"
+        "txtPista": "Destapa cañerías."
     },
     {
         "id": "2",
         "txtAdivinanza": "Famosa empresa que creó a Mario Bros.",
-        "txtPista": "Es una empresa japonesa y está ubicada en Kioto"
+        "txtPista": "Es una empresa japonesa y está ubicada en Kioto."
     },
     {
         "id": "3",
         "txtAdivinanza": "Hermano de Mario",
-        "txtPista": "Su nombre es de origen italiano"
+        "txtPista": "Su nombre es de origen italiano."
     },
     {
         "id": "4",
         "txtAdivinanza": "Edad de Mario",
-        "txtPista": "Está cerca de los 40"
+        "txtPista": "Está cerca de los 40."
     }
 ]

@@ -42,7 +42,19 @@ async function crearActividad(datos) {
         
         divContenido.append(labelPregunta, inputPregunta, enviar);
 
-        divPregunta.append(divEncabezado, divContenido);
+        let divPista = document.createElement('div');
+        
+        let dtlPista = document.createElement('details');
+        let smrPista = document.createElement('summary');
+        smrPista.textContent = 'Pista';
+        smrPista.title = "Ver pista";
+        let txtPista = document.createElement('p');
+        txtPista.textContent = d.txtPista;
+
+        dtlPista.append(smrPista, txtPista);
+        divPista.append(dtlPista);
+
+        divPregunta.append(divEncabezado, divContenido, divPista);
         contAdivinazas.append(divPregunta);
         cantidad++;
     }
@@ -69,6 +81,7 @@ async function completar() {
                     let respuestaData = document.createElement('p');
                     respuestaData.className = 'rtaConfirmada';
                     respuestaData.textContent = `Tu respuesta: ${inputData.value}`;
+                    inputData.parentNode.nextSibling.remove();
                     inputData.parentNode.append(respuestaData);
                     inputData.remove();
                     e.remove();

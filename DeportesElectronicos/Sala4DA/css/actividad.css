@@ -55,6 +55,10 @@ input[type='text'] {
     text-align: center;
 }
 
+details {
+    cursor: pointer;
+}
+
 /* Retroalimentación */
 
 #retroalimentacion dialog:open {
@@ -147,6 +151,10 @@ dialog:open #resultados > div{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
+    #contenidoActividad {
+        margin-top: 2rem;
+    }
+
     .tarjeta {
         flex-direction: column;
         align-items: flex-start;
@@ -171,6 +179,10 @@ dialog:open #resultados > div{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #contenidoActividad {
+        margin-top: 2rem;
+    }
+    
     .tarjeta {
         flex-direction: column;
         align-items: flex-start;
