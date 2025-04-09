@@ -67,8 +67,7 @@
 
     #completar {
         width: 40%;
-        top: 630px;
-        /* left: 100px; */
+        top: 500px;
     }
     
 }
@@ -82,8 +81,8 @@
 
     #completar {
         width: 28%;
-        top: 600px;
-        left: 200px;
+        top: 550px;
+        left: 160px;
     }
 
 }
@@ -97,7 +96,7 @@
 
     #completar {
         width: 30%;
-        top: 800px;
+        top: 650px;
         left: 250px;
     }
 
