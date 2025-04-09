@@ -1,0 +1,243 @@
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color3);
+    padding: 0.5rem 1rem;
+}
+
+p.marco, div.marco > p, div.marco > details {
+    font-size: larger;
+    margin: 1rem 0.5rem;
+    padding: 0.75rem ;
+    background-color: var(--color2);
+    color: var(--color5);
+    border-radius: 10px;
+}
+
+.imgEstado {
+    width: 2rem;
+}
+
+.seleccionado {
+    border: none;
+    background-color: var(--color1claro);
+    color: var(--color4);
+    border-radius: 10px;
+}
+
+/* Exclusivos Desafio */
+ul.txtRespuestas {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+ul.txtRespuestas input {
+    width: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+ul.txtRespuestas li {
+    padding: 0.5rem;
+}
+
+.imgPersonaje {
+    width: 10rem;
+    margin: 1rem 0;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#advertencia {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color5);
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+input[type='text'] {
+    width: 115px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+details {
+    cursor: pointer;
+}
+
+.tetrimino {
+    display: grid;
+    grid-template-columns: repeat(4, 20px);
+    grid-template-rows: repeat(4, 20px);
+    gap: 0;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    touch-action: none;
+    margin: 1rem;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.filled {
+    background-color: #3498db;
+    border: 1px solid var(--color2);
+}
+
+/* Retroalimentación */
+
+#retroalimentacion dialog:open {
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 2rem;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+dialog .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+dialog .botonera>.boton {
+    width: 10rem;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}
+
+dialog:open #resultados {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-self: normal;
+}
+
+dialog:open #resultados > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #contenidoActividad {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #contenidoCuestionario {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .contPregunta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #contenidoActividad {
+        margin-top: 2rem;
+    }
+
+    #contenidoCuestionario {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+
+    .contPregunta {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+    input {
+        margin-left: 2rem;
+    }
+
+    .rtaConfirmada {
+        padding-left: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #contenidoActividad {
+        margin-top: 2rem;
+    }
+    
+    #contenidoCuestionario {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        
+    }
+
+    .contPregunta {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        justify-items: center;
+        margin: 0.5rem 0;
+    }
+
+    input {
+        margin-left: 2rem;
+    }
+}

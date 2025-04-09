@@ -1,0 +1,62 @@
+[
+    {
+        "letra": "I",
+        "matriz": [[1, 1, 1, 1]],
+        "esTetromino": 1
+    },
+    {
+        "letra": "J",
+        "matriz": [[1, 0, 0, 0], [1, 1, 1, 0]],
+        "esTetromino": 1
+    },
+    {
+        "letra": "L",
+        "matriz": [[0, 0, 1, 0], [1, 1, 1, 0]],
+        "esTetromino": 1
+    },
+    {
+        "letra": "O",
+        "matriz": [[0, 1, 1, 0], [0, 1, 1, 0]],
+        "esTetromino": 1
+    },
+    {
+        "letra": "S",
+        "matriz": [[0, 1, 1, 0], [1, 1, 0]],
+        "esTetromino": 1
+    },
+    {
+        "letra": "T",
+        "matriz": [[1, 1, 1, 0], [0, 1, 0, 0]],
+        "esTetromino": 1
+    },
+    {
+        "letra": "Z",
+        "matriz": [[1, 1, 0, 0], [0, 1, 1, 0]],
+        "esTetromino": 1
+    },
+    {
+        "letra": "K",
+        "matriz": [[1, 0, 1, 0], [1, 1, 0, 0], [1, 0, 1, 0]],
+        "esTetromino": 0
+    },
+    {
+        "letra": "X",
+        "matriz": [[1, 0, 1, 0], [0, 1, 0, 0], [1, 0, 1, 0]],
+        "esTetromino": 0
+    },
+    {
+        "letra": "F",
+        "matriz": [[1, 1, 0, 0], [1, 1, 0, 0], [1, 0, 0, 0]],
+        "esTetromino": 0
+    },
+    {
+        "letra": "Y",
+        "matriz": [[1, 0, 1, 0], [0, 1, 0, 0], [0, 1, 0, 0]],
+        "esTetromino": 0
+    },
+    {
+        "letra": "Q",
+        "matriz": [[1, 1, 0, 0], [1, 1, 0, 0], [0, 1, 0, 0]],
+        "esTetromino": 0
+    }
+]

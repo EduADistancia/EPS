@@ -7,7 +7,7 @@
     <meta name="description" content="Material didáctico adicional.">
     <link rel="shortcut icon" href="./ico/favicon-96x96.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/cuestionario.css">
+    <link rel="stylesheet" href="./css/actividad.css">
     <title>EPS - Ecosistema de los deportes electrónicos</title>
 </head>
 <body id="captura">
@@ -23,36 +23,43 @@
             <header>
                 <div class="divHeader">
                     <h1>Ecosistema de los deportes <br>electrónicos</h1>
-                    <img src="./img/S01-.webp" alt="Imagen sala 1" class="imgCabecera">
+                    <!-- <img src="./img.jpg" alt="Materia" class="imgCabecera"> -->
                 </div>
             </header>
 
             <main>
                 <section id="indicaciones">
                     <div class="cabSection">
-                        <i><img src="./img/arrastrar-y-soltar.png" alt="Icono arrastrar y soltar"></i>
-                        <h2>Arrastrar y soltar</h2>
+                        <i><img src="./img/seleccion.png" alt="Icono seleccion"></i>
+                        <h2>Seleccioná la opción correcta</h2>
                     </div>
-                    <h3>Los origenes de los videojuegos</h3>
-                    <p>A continuación encontrarán hitos históricos relacionados a los primeros videojuegos.</p> 
-                    <p>Deberán asignar la imagen correspondiente a cada hito.</p>
-                    <p>Presionando en cada nombre encontrarán una breve descripción.</p>
+                    <h3>Tetrominós</h3>
+                    <p>Tetrominós son las figuras formadas por cuatro bloques cuadrados conectados entre sí. Son las piezas del juego Tetris, y cada una tiene una forma única que se puede rotar y mover.</p>
+                    <p>A continuación seleccioná cuales corresponden a tetrominós y se encuentran en el juego.</p>
+                    <p>Al finalizar podrás comprobar tus respuestas.</p>
                 </section>
                 <div id="retroalimentacion"></div>
                 <section id="contenidoActividad">
 
                     <!-- Contenido dinámico -->
-                    <div id="descripciones"></div>
-                    <div id="videojuegos"></div>
-                
+                    <dialog id="advertencia">
+                        <div>
+                            <p>Por favor completá todos los items.</p>
+                        </div>
+                        <div class="botonera">
+                            <button class="boton" id="cerrarAdvertencia">Cerrar</button>
+                        </div>
+                    </dialog>
+                    <div id="contenidoCuestionario"></div>
+
                 </section>
             </main>
 
             <footer>
                 <div id="botonera">
-                    <button id="comprobar" class="boton oculto">Comprobar</button>
+                    <button id="comprobar"  class="boton">Comprobar</button>
                     <button id="reintentar" class="boton oculto">Reintentar</button>
-                    <button id="cerrarApp" class="boton oculto">Cerrar</button>
+                    <button id="cerrarApp"  class="boton oculto">Cerrar</button>
                 </div>
             </footer>
         </div>
