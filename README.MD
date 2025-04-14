@@ -3,6 +3,7 @@
 - Ciencias Naturales
 - Lengua y Literatura
 - Ecosistema de los deportes electrónicos e industria de los videojuegos
+- Matemática
 
 ---
 ### Links a despliegues:
@@ -26,3 +27,7 @@
 - [Sala 2 Desafío A - Ruleta de palabras](https://eduadistancia.github.io/EPS/DeportesElectronicos/Sala2DA)
 - [Sala 3 Desafío B - Cuestionario Tetris (propuesta EAD a evaluar)](https://eduadistancia.github.io/EPS/DeportesElectronicos/Sala3DB)
 - [Sala 4 Desafío A - Adivinanzas](https://eduadistancia.github.io/EPS/DeportesElectronicos/Sala4DA)
+
+#### Matemática
+- [Nivel 2 - Reto 1 - Opción múltiple (propuesta EAD a evaluar)](https://eduadistancia.github.io/EPS/Matematica/Nivel2Reto1)
+- [Nivel 2 - Reto 2 - Opción múltiple (propuesta EAD a evaluar)](https://eduadistancia.github.io/EPS/Matematica/Nivel2Reto2)

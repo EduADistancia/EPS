@@ -1,0 +1,90 @@
+[
+    {
+        "imgPregunta": ["./img/dos.png", "./img/cuatro.png", "./img/seis.png"],
+        "pregunta": "Observen cada posición del patrón. ¿Qué es lo que cambia en la figura de una posición a otra?",
+        "respuestas": [
+            {
+                "txtRespuesta": "La forma de la figura.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "La cantidad de cuadraditos que forman la figura.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "El perímetro de la figura.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "La cantidad de cuadraditos de la base de la figura.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "imgPregunta": [],
+        "pregunta": "Concéntrense en la cantidad de cuadrados que forman las figuras de cada posición del patrón. ¿Cómo cambia esa cantidad?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Es constante: siempre hay 2 cuadrados.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Cambia: aumenta de a una unidad por cada posición.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "No se puede saber.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Es creciente: a medida que aumenta la posición, aumenta la cantidad de cuadrados.",
+                "correcta": "1"
+            }
+        ]
+    },
+    {
+        "imgPregunta": ["./img/dos.png", "./img/cuatro.png", "./img/seis.png", "./img/ocho.png"],
+        "pregunta": "Observen el patrón. ¿Qué cantidad de cuadrados forman la figura que ocuparía la posición 5?",
+        "respuestas": [
+            {
+                "txtRespuesta": "9",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "12",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "10",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "No se puede saber",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "imgPregunta": [],
+        "pregunta": "Si p es la posición de la figura, entonces, la cantidad de cuadrados que forman la figura que ocupa esa posición es…",
+        "respuestas": [
+            {
+                "txtRespuesta": "2 x p",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "p + p",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "p + 2",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "No se puede saber",
+                "correcta": "0"
+            }
+        ]
+    }
+]

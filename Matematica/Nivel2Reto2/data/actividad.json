@@ -1,0 +1,113 @@
+[
+    {
+        "imgPregunta": ["./img/pira1.png", "./img/pira2.png", "./img/pira3.png"],
+        
+        "pregunta": "Observen cada pirandela. ¿Qué es lo que cambia de la pirandela 1 a la 2?",
+        "respuestas": [
+            {
+                "txtRespuesta": "La altura de la “pirámide”.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "La cantidad de arandelas que se colocan en la base de la “pirámide”. ",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "La cantidad de arandelas se necesitan para formarlas.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "La cantidad de arandelas que se ubican en la cúspide de la “pirámide”.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "imgPregunta": [],
+        "pregunta": "Concéntrense en la cantidad de arandelas que forman la base de cada pirandela. Para mayor claridad, llamaremos “base” a las arandelas que hay que colocar en el primer nivel de la pirámide. Son las coloreadas en naranja en la imagen.<br><br>¿Cómo cambia esa cantidad?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Aumenta de a dos arandelas por cada nueva pirandela.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Aumenta de forma variable por cada nueva pirandela.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "No se puede saber.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Es creciente: a medida que aumenta la posición, aumenta la cantidad de arandelas de la base.",
+                "correcta": "1"
+            }
+        ]
+    },
+    {
+        "imgPregunta": [],
+        "pregunta": "Concéntrense en la cantidad de arandelas que forman el lado de la base de cada pirandela. Para mayor claridad, llamaremos “lado de la base” a las arandelas que hay que colocar en la base del primer nivel de la pirámide. Son las coloreadas en rojo en la imagen.<br><br>¿Cómo cambia esa cantidad?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Aumenta de a una arandela por cada nueva pirandela.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "Aumenta de a dos arandelas por cada nueva pirandela.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "No se puede saber.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Es creciente: a medida que aumenta la posición, aumenta la cantidad de arandelas del lado de la base.",
+                "correcta": "1"
+            }
+        ]
+    },
+    {
+        "imgPregunta": [],
+        "pregunta": "Si p es el número de la pirandela, entonces, la cantidad de arandelas que forman su base es…",
+        "respuestas": [
+            {
+                "txtRespuesta": "1 + 2 + 3 + … + p",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "La suma de los primeros p números naturales.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "p  (p + 1) : 2",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "No se puede saber",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "imgPregunta": [],
+        "pregunta": "¿Cuál de todas estas afirmaciones permite conocer la cantidad de arandelas necesarias para armar la pirandela número p?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Cada pirandela se forma con una base de 1 + 2 + 3 + … + p arandelas y, sobre ella, se construye una pirandela igual a la anterior. Entonces, la cantidad es 1 + 2 + 3 + … + p + cantidad de arandelas de la pirandela anterior.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "Cada pirandela se forma con una base de p arandelas y, sobre ella, se construye una pirandela igual a la anterior. Entonces, la cantidad es p + cantidad de arandelas de la pirandela anterior.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "No se puede saber.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "p  (p + 1) : 2",
+                "correcta": "0"
+            }
+        ]
+    }
+]
