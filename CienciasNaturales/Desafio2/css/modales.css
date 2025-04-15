@@ -13,7 +13,7 @@
 }
 
 /* Modales */
-dialog {
+#contenedorModales dialog {
     position: absolute;
     width: auto;
     margin: 1rem 2.5rem;
@@ -24,24 +24,24 @@ dialog {
     z-index: 30;
 }
 
-dialog:open {
+#contenedorModales dialog:open {
     display: flex;
     flex-direction: column;
     height: auto;
     top: 40%;
 }
 
-dialog > p {
+#contenedorModales dialog > p {
     padding-bottom: 3rem;
 }
-dialog > img {
+#contenedorModales dialog > img {
     border-radius: 20px;
     align-self: center;
     width: 50%;
     aspect-ratio: 1;
 }
 
-dialog::backdrop {
+#contenedorModales dialog::backdrop {
     background-color: var(--color3claro);
 } 
 
@@ -67,7 +67,7 @@ div.cerrarModal > button:hover {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    dialog > img {
+    #contenedorModales dialog > img {
         width: 90%;
     }
 
@@ -75,21 +75,21 @@ div.cerrarModal > button:hover {
         font-size: medium;
     }
 
-    dialog:open {
+    #contenedorModales dialog:open {
         top: 35%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
-    dialog:open {
+    #contenedorModales dialog:open {
         top: 40%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    dialog:open {
+    #contenedorModales dialog:open {
         top: 45%;
     }
 }

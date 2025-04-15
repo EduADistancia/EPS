@@ -54,6 +54,8 @@ function dragndrop(dropArea){
                     .remove();
 
             if(document.querySelector('#elementosActividad').innerHTML === "") {
+                document.querySelector('#elementosActividad').parentNode.parentNode.classList.add('completo');
+                document.querySelector('#elementosActividad').parentNode.remove();
                 document.querySelector('#comprobar').classList.remove('oculto');
             }
         }
@@ -100,6 +102,8 @@ function dragndrop(dropArea){
                     .remove();
             
             if(document.querySelector('#elementosActividad').innerHTML === "") {
+                document.querySelector('#elementosActividad').parentNode.parentNode.classList.add('completo');
+                document.querySelector('#elementosActividad').parentNode.remove();
                 document.querySelector('#comprobar').classList.remove('oculto');
             }
         }

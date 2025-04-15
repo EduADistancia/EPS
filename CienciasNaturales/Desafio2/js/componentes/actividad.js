@@ -1,3 +1,12 @@
+// Desordenar datos
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1)); // Índice aleatorio entre 0 e i
+        [array[i], array[j]] = [array[j], array[i]]; // Intercambio de elementos
+    }
+    return array;
+}
+
 // Botonera imagen elemento
 function crearBotoneraModal(elemento) {
     let botonera = document.createElement('div');
@@ -9,7 +18,6 @@ function crearBotoneraModal(elemento) {
 
     return botonera;
 }
-
 
 // Cierre de modal
 function crearBotonCerrarModal(idModal) {
@@ -31,7 +39,7 @@ async function crearActividad(datos) {
     let contenedorModales = document.querySelector('#contenedorModales');
     let contadorAux = 0;
 
-    for (let dato of datos) {
+    for (let dato of shuffleArray(datos)) {
 
         let tarjeta = document.createElement('div');
         tarjeta.classList.add(`Info${contadorAux}`);

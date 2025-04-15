@@ -5,7 +5,6 @@
     height: 10rem;
 }
 
-/* .word { */
 #fragmentos div {
     display: flex;
     justify-content: space-between;
@@ -48,17 +47,43 @@
 
 /* Retroalimentación */
 
-.retroalimentacion {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 1rem;
-    background-color: var(--color3);
-    border-radius: 20px;
+.imgEstado {
+    width: 2rem;
 }
 
-.retroalimentacion > * {
-    margin-bottom: 1rem;
+p.word > div {
+    justify-self: center;
+}
+
+#retroalimentacion dialog:open {
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 2rem;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+dialog .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+dialog .botonera>.boton {
+    width: 10rem;
+}
+
+dialog::backdrop {
+    background-color: var(--color5);
+    opacity: 0.4;
 }
 
 .textoRetro {
@@ -72,7 +97,6 @@
 }
 
 .imgRetro{
-    margin-left: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -86,17 +110,12 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    .retroalimentacion {
-        flex-direction: column-reverse;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 }

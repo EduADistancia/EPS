@@ -1,17 +1,12 @@
-import { cargar } from "./carga.js";
+import { mostrarModal } from "./modal.js";
 
-// Cambio de contenido según resultado
-async function mostrarRetroalimentacion(resultado){
-    let contenido = document.querySelector('#contenidoActividad');
-    let template;
-    
-    if (resultado) {
-        template = await cargar('./site/retroPositiva.html', 'template');
-    } else {
-        template = await cargar('./site/retroNoPositiva.html', 'template');
-    }
-    
-    contenido.innerHTML = template;
+function agregarCheck(correcto) {
+    let imgSrc = correcto ? './img/correcto.png' : './img/incorrecto.png';
+    let checkItem = document.createElement('img');
+    checkItem.src = imgSrc;
+    checkItem.classList.add('imgEstado');
+
+    return checkItem;
 }
 
 // Comprobación
@@ -25,33 +20,36 @@ async function comprobar() {
         completados.forEach(c => {
             c.childNodes.forEach(frase => {
                 if (frase.classList.contains('dropped')) {
+                    let divImgRetro = document.createElement('div');
                     if(frase.getAttribute('name') !== c.id) {
                         resultado = false;
+                        divImgRetro.append(agregarCheck(false));
+                    } else {
+                        divImgRetro.append(agregarCheck(true));
                     }
+                    frase.append(divImgRetro);
+                    frase.draggable = false;
                 }
             });
+            c.disabled = true;
         })
         
-
-
         document.querySelector('#comprobar').classList.add('oculto');
         document.querySelector('#indicaciones').classList.add('oculto');
 
         if (resultado) {
-            mostrarRetroalimentacion(true);
+            mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroPositiva.html");
             let volver = document.querySelector('#volver');
             volver.classList.remove('oculto');
-            volver.addEventListener('click', ev => {
+            volver.addEventListener('click', ()=> {
                 window.close();
-                ev.preventDefault();
             });
         } else {
-            mostrarRetroalimentacion(false);
+            mostrarModal("#cerrarModal", "#retroalimentacion", "./site/retroNoPositiva.html");
             let reintentar = document.querySelector('#reintentar');
             reintentar.classList.remove('oculto');
-            reintentar.addEventListener('click', ev => {
+            reintentar.addEventListener('click', ()=> {
                 window.location.reload();
-                ev.preventDefault();
             });
         }
     });
