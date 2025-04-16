@@ -113,6 +113,10 @@ i > img {
     display: none;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 /* PUNTOS DE CORTE */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

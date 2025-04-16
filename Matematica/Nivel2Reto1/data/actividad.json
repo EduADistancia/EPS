@@ -1,7 +1,7 @@
 [
     {
         "imgPregunta": ["./img/dos.png", "./img/cuatro.png", "./img/seis.png"],
-        "pregunta": "Observen cada posición del patrón. ¿Qué es lo que cambia en la figura de una posición a otra?",
+        "pregunta": "Observen cada posición del patrón. ¿Qué es lo que cambia en la figura de una posición a otra? <br><br>Tengan en cuenta que puede haber una o varias respuestas correctas. Seleccionar todas las correctas.",
         "respuestas": [
             {
                 "txtRespuesta": "La forma de la figura.",
@@ -23,7 +23,7 @@
     },
     {
         "imgPregunta": [],
-        "pregunta": "Concéntrense en la cantidad de cuadrados que forman las figuras de cada posición del patrón. ¿Cómo cambia esa cantidad?",
+        "pregunta": "Concéntrense en la cantidad de cuadrados que forman las figuras de cada posición del patrón. ¿Cómo cambia esa cantidad? <br><br>Tengan en cuenta que puede haber una o varias respuestas correctas. Seleccionar todas las correctas.",
         "respuestas": [
             {
                 "txtRespuesta": "Es constante: siempre hay 2 cuadrados.",
@@ -45,7 +45,7 @@
     },
     {
         "imgPregunta": ["./img/dos.png", "./img/cuatro.png", "./img/seis.png", "./img/ocho.png"],
-        "pregunta": "Observen el patrón. ¿Qué cantidad de cuadrados forman la figura que ocuparía la posición 5?",
+        "pregunta": "Observen el patrón. ¿Qué cantidad de cuadrados forman la figura que ocuparía la posición 5? <br><br>Tengan en cuenta que puede haber una o varias respuestas correctas. Seleccionar todas las correctas.",
         "respuestas": [
             {
                 "txtRespuesta": "9",
@@ -67,18 +67,18 @@
     },
     {
         "imgPregunta": [],
-        "pregunta": "Si p es la posición de la figura, entonces, la cantidad de cuadrados que forman la figura que ocupa esa posición es…",
+        "pregunta": "Si <span class=\"bold\">p</span> es la posición de la figura, entonces, la cantidad de cuadrados que forman la figura que ocupa esa posición es… <br><br>Tengan en cuenta que puede haber una o varias respuestas correctas. Seleccionar todas las correctas.",
         "respuestas": [
             {
-                "txtRespuesta": "2 x p",
+                "txtRespuesta": "2 &#215; <span class=\"bold\">p</span>",
                 "correcta": "1"
             },
             {
-                "txtRespuesta": "p + p",
+                "txtRespuesta": "<span class=\"bold\">p</span> + <span class=\"bold\">p</span>",
                 "correcta": "1"
             },
             {
-                "txtRespuesta": "p + 2",
+                "txtRespuesta": "<span class=\"bold\">p</span> + 2",
                 "correcta": "0"
             },
             {

@@ -86,7 +86,8 @@ details {
 
 .divImgRta div {
     display: flex;
-    align-items: baseline;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 /* Retroalimentación */

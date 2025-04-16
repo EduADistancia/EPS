@@ -51,7 +51,7 @@ async function crearActividad(datos) {
             
             let labelRta = document.createElement('label');
             labelRta.setAttribute('for', rta.txtRespuesta + d.respuestas.indexOf(rta));
-            labelRta.textContent = rta.txtRespuesta;
+            labelRta.innerHTML = rta.txtRespuesta;
 
             respuestaLi.append(inputRta, labelRta);
             ulRespuestas.append(respuestaLi);
