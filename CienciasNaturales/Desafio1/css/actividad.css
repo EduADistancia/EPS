@@ -125,7 +125,7 @@ div.contenedorDraggables {
 
 .retroalimentacion {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 2rem 1rem;
     background-color: var(--color3);
@@ -154,6 +154,31 @@ div.contenedorDraggables {
 .imgRetro > img {
     width: 5rem;
     aspect-ratio: 1;
+}
+
+div.textoRetro div {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+.imgEstado {
+    width: 2rem;
+}
+
+.claveContinuar {
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--color2);
+    color: var(--color5);
+    text-align: center;
+    justify-self: center;
+    padding: 1rem 0;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 /* PUNTOS DE CORTE */

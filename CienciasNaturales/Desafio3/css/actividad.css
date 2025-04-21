@@ -134,6 +134,19 @@ dialog::backdrop {
     aspect-ratio: 1;
 }
 
+.claveContinuar {
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--color2);
+    color: var(--color5);
+    text-align: center;
+    justify-self: center;
+    padding: 1rem 0;
+}
+
+.bold {
+    font-weight: 700;
+}
 
 /* PUNTOS DE CORTE */
 
