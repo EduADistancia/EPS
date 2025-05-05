@@ -1,0 +1,45 @@
+[
+    {
+        "pregunta": "Recordemos el desafío 1. Ya habíamos acordado que los rombos NO se ubican en posiciones impares (ni en pares, de hecho). En esta porción de la secuencia, los rombos están ubicados en las posiciones 1, 3, 6, 10 y 15. ¿En qué posición estará el próximo rombo?",
+        "respuestas": [
+            {
+                "txtRespuesta": "No se puede saber.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "20 ",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "21",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "22",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "La relación entre ambos desafíos es que…",
+        "respuestas": [
+            {
+                "txtRespuesta": "La posición de los rombos de la primera secuencia coincide con la cantidad total de cuadraditos que tiene cada figura de la segunda secuencia.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "La cantidad de rombos de la primera secuencia coincide con la cantidad total de cuadraditos que tiene cada figura de la segunda secuencia.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "La posición de los rombos de la primera secuencia coincide con la posición que tiene cada figura de la segunda secuencia.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "La posición de los rombos de la primera secuencia coincide con la cantidad de cuadraditos de la base de cada figura de la segunda secuencia.",
+                "correcta": "0"
+            }
+        ]
+    }
+]
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Area Educación a Distacia - Min. de Educación GCABA">
+    <meta name="description" content="Material didáctico adicional.">
+    <link rel="shortcut icon" href="./ico/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/actividad.css">
+    <title>EPS - Matemática</title>
+</head>
+<body id="captura">
+    <div id="contenedor">
+        
+        <!-- Membrete superior -->
+        <div id="membsup">
+            <img class="membrete" src="./img/membreteHeader.jpg" alt="Membrete Ministerio de Educación GCABA">
+        </div>
+
+        <!-- Contenido del documento -->
+        <div id="contenido">
+            <header>
+                <div class="divHeader">
+                    <h1>Matemática</h1>
+                </div>
+            </header>
+            
+            <main>
+                <section id="indicaciones">
+                    <div class="cabSection">
+                        <i><img src="./img/seleccion.png" alt="Icono seleccion"></i>
+                        <h2>Seleccioná la opción correcta</h2>
+                    </div>
+                    <h3>Desafío N° 3: Desafíos 1 y 2 relacionados</h3>
+                    <p>Observen los patrones y las figuras de los desafíos anteriores y seleccionen en cada pregunta la opción correcta.</p>
+                    <p>Al finalizar podrán comprobar sus respuestas.</p>
+                    <div class="divImgRta">
+                        <img src="./img/n1d3.jpg" alt="Imagen de referencia">
+                    </div>
+                    <div class="divImgRta">
+                        <img src="./img/n1d2.jpg" alt="Imagen de referencia">
+                    </div>
+                </section>
+                <div id="retroalimentacion"></div>
+                <section id="contenidoActividad">
+
+                    <!-- Contenido dinámico -->
+                    <dialog id="advertencia">
+                        <div>
+                            <p>Por favor completá todos los items.</p>
+                        </div>
+                        <div class="botonera">
+                            <button class="boton" id="cerrarAdvertencia">Cerrar</button>
+                        </div>
+                    </dialog>
+                    <div id="contenidoCuestionario"></div>
+
+                </section>
+            </main>
+
+            <footer>
+                <div id="botonera">
+                    <button id="comprobar"  class="boton">Comprobar</button>
+                    <button id="reintentar" class="boton oculto">Reintentar</button>
+                    <button id="cerrarApp"  class="boton oculto">Cerrar</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

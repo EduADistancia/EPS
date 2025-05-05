@@ -1,0 +1,56 @@
+.divTabla {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+
+table {
+    min-width: 710px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+td.columna1 {
+    width: 5rem;
+    padding: 0.25rem;
+}
+
+td.cabecera {
+    width: 4rem;
+}
+
+td.tdCompletar input {
+    align-self: center;
+    width: 3rem;
+    margin: 0;
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .divTabla {
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .divTabla {
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .divTabla {
+        justify-content: center;
+        overflow-x: hidden;
+    }
+}

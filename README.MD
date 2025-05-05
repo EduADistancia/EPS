@@ -29,5 +29,10 @@
 - [Sala 4 Desafío A - Adivinanzas](https://eduadistancia.github.io/EPS/DeportesElectronicos/Sala4DA)
 
 #### Matemática
-- [Nivel 2 - Reto 1 - Opción múltiple (propuesta EAD a evaluar)](https://eduadistancia.github.io/EPS/Matematica/Nivel2Reto1)
-- [Nivel 2 - Reto 2 - Opción múltiple (propuesta EAD a evaluar)](https://eduadistancia.github.io/EPS/Matematica/Nivel2Reto2)
+- [Nivel 1 - Reto 1 - Opción múltiple](https://eduadistancia.github.io/EPS/Matematica/Nivel1Desafio1)
+- [Nivel 1 - Reto 2 - Opción múltiple](https://eduadistancia.github.io/EPS/Matematica/Nivel1Desafio2)
+- [Nivel 1 - Reto 2.1 - Completar tabla](https://eduadistancia.github.io/EPS/Matematica/Nivel1Desafio2-1)
+- [Nivel 1 - Reto 3 - Opción múltiple](https://eduadistancia.github.io/EPS/Matematica/Nivel1Desafio3)
+- [Nivel 2 - Reto 1 - Opción múltiple](https://eduadistancia.github.io/EPS/Matematica/Nivel2Reto1)
+- [Nivel 2 - Reto 2 - Opción múltiple](https://eduadistancia.github.io/EPS/Matematica/Nivel2Reto2)
+- [Nivel 2 - Reto 2.1 - Completar tabla](https://eduadistancia.github.io/EPS/Matematica/Nivel2Reto2-1)

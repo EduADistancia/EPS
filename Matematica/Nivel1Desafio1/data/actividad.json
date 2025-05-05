@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "Observen cada posición del patrón. ¿Qué es lo que cambia?",
+        "respuestas": [
+            {
+                "txtRespuesta": "La cantidad de figuras.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "La forma de las figuras.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "El color de las figuras.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "La cantidad total de segmentos de cada figura.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "La cantidad total de segmentos de todas las figuras de la posición.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "Concéntrense en las figuras del patrón y la posición que ocupan en él. ¿Cómo cambian? Opciones:",
+        "respuestas": [
+            {
+                "txtRespuesta": "Se van alternando rombos y rectángulos, de a uno por vez y de forma repetida.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Se va alternando una cantidad creciente de rectángulos, intercalados siempre por un rombo.",
+                "correcta": "1"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué figura ocupa la posición 11? ¡Pueden dibujarla continuando el patrón!",
+        "respuestas": [
+            {
+                "txtRespuesta": "Rombo.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Rectángulo.",
+                "correcta": "1"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué figura ocupa la posición 12? ¡Pueden dibujarla continuando el patrón!",
+        "respuestas": [
+            {
+                "txtRespuesta": "Rombo.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Rectángulo.",
+                "correcta": "1"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Necesitan la información de las posiciones anteriores para decidir qué figura ocupa la posición 12?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Sí.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "No.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué figura ocupa la posición 15? ¡Pueden dibujarla continuando el patrón!",
+        "respuestas": [
+            {
+                "txtRespuesta": "Rombo.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "Rectángulo.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué figura ocupa las posiciones 16, 17, 18, 19 y 20? ¡Pueden dibujarla continuando el patrón!",
+        "respuestas": [
+            {
+                "txtRespuesta": "Rombo.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Rectángulo.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "Rectángulos y rombos.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Es cierto que los rombos están siempre en posiciones impares?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Sí.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "No.",
+                "correcta": "1"
+            }
+        ]
+    }
+]
