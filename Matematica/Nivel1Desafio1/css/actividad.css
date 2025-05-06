@@ -1,8 +1,7 @@
 .tarjeta {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    margin: 1rem 1rem;
+    margin: 1rem 0;
     border: none;
     border-radius: 5px;
     background-color: var(--color3);
@@ -91,7 +90,7 @@ details {
 }
 
 .divImgRta img {
-    width: 90%;
+    width: 100%;
 }
 
 /* Retroalimentación */
