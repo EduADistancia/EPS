@@ -1,17 +1,17 @@
 [
     {
-        "pregunta": "Siguiendo el razonamiento anterior, ¿cuál de estas fórmulas permite conocer la cantidad total de arandelas de la pirandela p, sin necesidad de haber construido las anteriores?",
+        "pregunta": "Siguiendo el razonamiento anterior, ¿cuál de estas fórmulas permite conocer la cantidad total de arandelas de la pirandela <span class=\"bold\">p</span>, sin necesidad de haber construido las anteriores?",
         "respuestas": [
             {
-                "txtRespuesta": "p  1 + (p - 1)  2 + (p - 2)  3 + … + 2  (p - 1) + p",
+                "txtRespuesta": "<span class=\"bold\">p</span> &#215; 1 + (<span class=\"bold\">p</span> - 1) &#215; 2 + (<span class=\"bold\">p</span> - 2) &#215; 3 + … + 2 &#215; (<span class=\"bold\">p</span> - 1) + <span class=\"bold\">p</span>",
                 "correcta": "1"
             },
             {
-                "txtRespuesta": "p  1 + (p - 1)  2 + (p - 2)  3 + … + 2  (p - 1) + p  1",
+                "txtRespuesta": "<span class=\"bold\">p</span> &#215; 1 + (<span class=\"bold\">p</span> - 1) &#215; 2 + (<span class=\"bold\">p</span> - 2) &#215; 3 + … + 2 &#215; (<span class=\"bold\">p</span> - 1) + <span class=\"bold\">p</span> &#215; 1",
                 "correcta": "1"
             },
             {
-                "txtRespuesta": "p  p + (p - 1)  (p - 1) + (p - 2)  (p - 2) + … + p  p",
+                "txtRespuesta": "<span class=\"bold\">p</span> &#215; <span class=\"bold\">p</span> + (<span class=\"bold\">p</span> - 1) &#215; (<span class=\"bold\">p</span> - 1) + (<span class=\"bold\">p</span> - 2) &#215; (<span class=\"bold\">p</span> - 2) + … + <span class=\"bold\">p</span> &#215; <span class=\"bold\">p</span>",
                 "correcta": "0"
             },
             {
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "pregunta": "De acuerdo a la siguiente fórmula:<br><br>(p × p × p + 3 × p × p + 2 × p) ÷ 6<br><br>¿coincide con la fórmula planteada anteriormente para las primeras 10 pirandelas?",
+        "pregunta": "De acuerdo a la siguiente fórmula:<br><br>(<span class=\"bold\">p</span> &#215; <span class=\"bold\">p</span> &#215; <span class=\"bold\">p</span> + 3 &#215; <span class=\"bold\">p</span> &#215; <span class=\"bold\">p</span> + 2 &#215; <span class=\"bold\">p</span>) ÷ 6<br><br>¿coincide con la fórmula planteada anteriormente para las primeras 10 pirandelas?",
         "respuestas": [
             {
                 "txtRespuesta": "Si.",
