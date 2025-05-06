@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap');
+
+@import url("./colores.css");
+
+/* PRINCIPALES */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--color2);
+}
+
+#contenedor {
+    position: relative;
+    min-height: 100vh;
+    max-width: 1200px;
+    background-color: var(--color5);
+}
+
+#contenido {
+    color: var(--color2);
+    padding: 0 2%;
+    margin: 0 1%;
+}
+
+/* MEMBRETE */
+.membrete {
+    width: 100%;
+}
+
+#membsup {
+    width: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* CONTENIDO */
+#contenido > header, 
+#contenido > main, 
+#contenido > footer {
+    margin: 0.5rem 0;
+}
+
+.divHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgCabecera {
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    margin-right: 10%;
+}
+
+
+h2, h3, p, section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cabSection {
+    display: flex;
+    align-items: center;
+}
+
+i > img {
+    width: 3rem;
+    margin-right: 0.5rem;
+
+}     
+
+#botonera {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    background-color: var(--color1);
+    min-width: 10rem;
+    width: auto;
+    min-height: 4rem;
+    max-height: 6rem;
+    font-weight: 700;
+    border: none;
+    font-size: large;
+    border-radius: 999px;
+    padding: 0.5rem 5%;
+    margin: 0.25rem 0.25rem;
+}
+
+.boton:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+.visible {
+    display: inherit;
+}
+
+.oculto {
+    display: none;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* Modales adicionales */
+dialog.info:open {
+    align-self: center;
+    justify-self: center;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color3claro);
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #contenido {
+        font-size: large;
+    }
+
+    body {
+        display: block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #contenido {
+        font-size: large;
+    }
+    
+    body {
+        display: block;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    .imgCabecera {
+        width: 20%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #contenido {
+        font-size: larger;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }    
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .imgCabecera {
+        width: 15%;
+    }
+}

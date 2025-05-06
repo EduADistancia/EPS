@@ -1,0 +1,104 @@
+[
+    {
+        "pregunta": "Según la nota, ¿cómo cree Paenza que una persona común definiría a la matemática en la actualidad (donde “actualidad” alude a la fecha de publicación de la nota)?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Como el estudio de los números.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "Como el estudio de las formas geométricas.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Como una ciencia moderna y compleja.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Hace cuántos años, según la nota de Paenza, era válida la definición de la matemática como el estudio de los números?",
+        "respuestas": [
+            {
+                "txtRespuesta": "500 años.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "1000 años.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "2500 años.",
+                "correcta": "1"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué civilizaciones antiguas se mencionan en la nota en relación con el desarrollo inicial de la matemática?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Egipcios y babilonios.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "Griegos y romanos.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Chinos e indios.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué transformación sufrió la matemática con los griegos, según la nota?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Se convirtió en una colección de técnicas.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Se transformó en un área de estudio independiente.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "Se enfocó únicamente en la aritmética.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué período histórico abarca la preocupación de los matemáticos griegos por la geometría mencionada en la nota?",
+        "respuestas": [
+            {
+                "txtRespuesta": "500 a.C. a 300 d.C.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "1000 a.C. a 500 a.C.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "300 d.C. a 800 d.C.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de números permitieron a los babilonios medir magnitudes mayores que cinco pero menores que seis?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Números naturales.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Números enteros.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Números racionales.",
+                "correcta": "1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "pregunta": "Siguiendo el razonamiento anterior, ¿cuál de estas fórmulas permite conocer la cantidad total de arandelas de la pirandela p, sin necesidad de haber construido las anteriores?",
+        "respuestas": [
+            {
+                "txtRespuesta": "p  1 + (p - 1)  2 + (p - 2)  3 + … + 2  (p - 1) + p",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "p  1 + (p - 1)  2 + (p - 2)  3 + … + 2  (p - 1) + p  1",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "p  p + (p - 1)  (p - 1) + (p - 2)  (p - 2) + … + p  p",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "No se puede saber",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "La cantidad de arandelas que se necesitan para construir la pirandela 10 es…",
+        "respuestas": [
+            {
+                "txtRespuesta": "220",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "No se puede saber",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "150",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "720",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "De acuerdo a la siguiente fórmula:<br><br>(p × p × p + 3 × p × p + 2 × p) ÷ 6<br><br>¿coincide con la fórmula planteada anteriormente para las primeras 10 pirandelas?",
+        "respuestas": [
+            {
+                "txtRespuesta": "Si.",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "No.",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "Solo coincide en algunos casos.",
+                "correcta": "0"
+            }
+        ]
+    },
+    {
+        "pregunta": "Con 1.000 arandelas se puede construir, a lo sumo, la pirandela número…",
+        "respuestas": [
+            {
+                "txtRespuesta": "11",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "15",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "17",
+                "correcta": "1"
+            },
+            {
+                "txtRespuesta": "22",
+                "correcta": "0"
+            },
+            {
+                "txtRespuesta": "49",
+                "correcta": "0"
+            }
+        ]
+    }
+]
